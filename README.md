@@ -4,7 +4,9 @@ Relationship between disneys movies.
 
 
 ## Images
-![](Images/DTU.png)
+<img src="Images/DTU.png" height="100"> 
+<!--This is a comment-->
+<!--![](Images/DTU.png)-->
 
 
 
