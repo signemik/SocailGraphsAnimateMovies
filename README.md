@@ -4,7 +4,7 @@ Relationship between disneys movies.
 
 
 ## Images
-![](images/DTU.png)
+![](Images/DTU.png)
 
 
 
