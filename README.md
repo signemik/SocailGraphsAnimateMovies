@@ -9,7 +9,7 @@ Relationship between disneys movies.
 <!--![](Images/DTU.png)-->
 
 ## Download link
-[Data for project]("Download/Movie_Data.xlsx")
+[Data for project](https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true)
 
 
 
