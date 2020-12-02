@@ -31,8 +31,8 @@ Relationship between disneys movies.
         </section>
         <section class="color" id="sentiments">
             <div class="container">
-                <h1>Emotions in politics</h1>
-                <p>Emotions are everywhere. Especially in politics.<br>
+                <h1>Emotions in movie reviews</h1>
+                <p>Movie reviews are how regular people review a movie and express their meaning of the particular movie.<br>
                 Recently, The Oxford Dictionaries announced that its Word of the Year 2016 is <b>post-truth</b>.<br>
                 </p>
                 <img src="img/woty.png" id="woty">
