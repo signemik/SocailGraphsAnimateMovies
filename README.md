@@ -22,12 +22,10 @@ Relationship between disneys movies.
                 <h1 id="contenttitle">Contents</h1>
 
                 <p class="contents">
-                    <a href="#sentiments"><img src="img/smile.png"><br>
+                    <a href="#sentiments"><img src="Images/sentiment-analysis.jpg"><br>
                     &rarr; Sentiment Analysis</a><br><br>
-                    <a href="#network"><img src="img/share.png"><br>
-                    &rarr; Network Analysis</a><br><br>
-                    <a href="#terms"><img src="img/chat.png"><br>
-                    &rarr; Frequent Term Analysis</a>
+                    <a href="#network"><img src="Images/network-analysis.jpg"><br>
+                    &rarr; Network Analysis</a>             
                 </p>
             </div>
         </section>
