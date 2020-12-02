@@ -13,7 +13,24 @@ Relationship between disneys movies.
 
 
 
+</header><!-- /header -->
 
+<div id="main" class="first_main">
+    <div id="content">
+        <section id="one">
+            <div class="container">
+                <h1 id="contenttitle">Contents</h1>
+
+                <p class="contents">
+                    <a href="#sentiments"><img src="img/smile.png"><br>
+                    &rarr; Sentiment Analysis</a><br><br>
+                    <a href="#network"><img src="img/share.png"><br>
+                    &rarr; Network Analysis</a><br><br>
+                    <a href="#terms"><img src="img/chat.png"><br>
+                    &rarr; Frequent Term Analysis</a>
+                </p>
+            </div>
+        </section>
 
 
 ## Welcome to GitHub Pages
