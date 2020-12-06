@@ -47,42 +47,6 @@
       parallaxImgScroll(parallaxSettings);
     });
   </script>
-
-  <section>
-    <article class="parallax-img-container">
-      <h1>Parallax Image Scroll</h1>
-      <h3>Give life to your website</h3>
-      <a class="btn-download-init" href="js/parallaxImg.js">Download .JS</a>
-      <!-- images for parallax -->
-      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position="420" />
-      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5" data-ps-vertical-position="700" data-ps-horizontal-position="220" />
-      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position="300" />
-      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5" data-ps-vertical-position="500" data-ps-horizontal-position="620" />
-      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="600" data-ps-horizontal-position="0" />
-      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.4" data-ps-vertical-position="200" data-ps-horizontal-position="520" />
-      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.3" data-ps-vertical-position="300" data-ps-horizontal-position="320" />
-      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.2" data-ps-vertical-position="-900" data-ps-horizontal-position="220" />
-      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.3" data-ps-vertical-position="-600" data-ps-horizontal-position="150" />
-      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="2" data-ps-speed="1" data-ps-vertical-position="1200" data-ps-horizontal-position-right="0" />
-      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="2" data-ps-speed="0.4" data-ps-vertical-position="-200" data-ps-horizontal-position="0" />
-      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="3" data-ps-speed="0.5" data-ps-vertical-position="-400" data-ps-horizontal-position="0" />
-      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="4" data-ps-speed="1" data-ps-vertical-position="-300" data-ps-horizontal-position="600" />
-      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="5" data-ps-speed="0.35" data-ps-vertical-position="-400" data-ps-horizontal-position="0">
-    </article>
-  </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- </header>/header -->
 
 <div id="main" class="first_main">
