@@ -20,7 +20,15 @@
 <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 <link rel="stylesheet" type="text/css" href="css/bar.css"/>
 
-
+<!-- js -->
+<script src="js/classie.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/quotes.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="nodes_modules/d3/build/d3.min.js"></script>
+<script src="nodes_modules/d3-tip/index.js"></script>
 
 
 ## Motivation
