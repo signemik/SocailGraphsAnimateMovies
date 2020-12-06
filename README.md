@@ -49,7 +49,7 @@
              </section>
         <section class="color" id="network">
             <div class="container">
-                <h1>How are politicians connection if we look at what they say in parliament and how they retweet each other?</h1>
+                <h1>Network analysis </h1>
                 <br>
                 <p>
                   Politicians is heavy users of twitter and the retweet functionality is often used to share the tweets from other politicians.
@@ -128,132 +128,44 @@
                 <h2>The most important words on <b>Twitter</b> (2009-2016)</h2><br>
                 <div class="cloud-car">
                     <div class="single-item">
-                        <img src="img/wtw/2009-3.png" alt="">
+                        <img src="Images/sentiment-analysis.jpg" alt="">
                         <p>Twitter TF-IDF 03-2009 - 06-2009</p>
                     </div>
                     <div class="single-item">
-                        <img src="img/wtw/2009-6.png" alt="">
+                        <img src="Images/sentiment-analysis.jpg" alt="">
                         <p>Twitter TF-IDF 06-2009 - 09-2009</p>
                     </div>
                     <div class="single-item">
-                        <img src="img/wtw/2009-9.png" alt="">
+                        <img src="Images/sentiment-analysis.jpg" alt="">
                         <p>Twitter TF-IDF 09-2009 - 12-2009</p>
                     </div>
                     <div class="single-item">
-                        <img src="img/wtw/2009-12.png" alt="">
+                        <img src="Images/sentiment-analysis.jpg" alt="">
                         <p>Twitter TF-IDF 12-2009 - 03-2010</p>
                     </div>
                     <div class="single-item">
-                        <img src="img/wtw/2010-3.png" alt="">
+                        <img src="Images/sentiment-analysis.jpg" alt="">
                         <p>Twitter TF-IDF 03-2010 - 06-2010</p>
                     </div>
                     <div class="single-item">
-                        <img src="img/wtw/2010-6.png" alt="">
+                        <img src="Images/sentiment-analysis.jpg" alt="">
                         <p>Twitter TF-IDF 06-2010 - 09-2010</p>
                     </div>
                     <div class="single-item">
-                        <img src="img/wtw/2010-9.png" alt="">
+                        <img src="Images/sentiment-analysis.jpg" alt="">
                         <p>Twitter TF-IDF 09-2010 - 12-2010</p>
                     </div>
                     <div class="single-item">
-                        <img src="img/wtw/2010-12.png" alt="">
+                        <img src="Images/sentiment-analysis.jpg" alt="">
                         <p>Twitter TF-IDF 12-2010 - 03-2011</p>
                     </div>
                     <div class="single-item">
-                        <img src="img/wtw/2011-3.png" alt="">
+                        <img src="Images/sentiment-analysis.jpg" alt="">
                         <p>Twitter TF-IDF 03-2011 - 06-2011</p>
                     </div>
                     <div class="single-item">
-                        <img src="img/wtw/2011-6.png" alt="">
+                        <img src="Images/sentiment-analysis.jpg" alt="">
                         <p>Twitter TF-IDF 06-2011 - 09-2011</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2011-9.png" alt="">
-                        <p>Twitter TF-IDF 09-2011 - 12-2011</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2011-12.png" alt="">
-                        <p>Twitter TF-IDF 12-2011 - 03-2012</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2012-3.png" alt="">
-                        <p>Twitter TF-IDF 03-2012 - 06-2012</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2012-6.png" alt="">
-                        <p>Twitter TF-IDF 06-2012 - 09-2012</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2012-9.png" alt="">
-                        <p>Twitter TF-IDF 09-2012 - 12-2012</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2012-12.png" alt="">
-                        <p>Twitter TF-IDF 12-2012 - 03-2013</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2013-3.png" alt="">
-                        <p>Twitter TF-IDF 03-2013 - 06-2013</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2013-6.png" alt="">
-                        <p>Twitter TF-IDF 06-2013 - 09-2013</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2013-9.png" alt="">
-                        <p>Twitter TF-IDF 09-2013 - 12-2013</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2013-12.png" alt="">
-                        <p>Twitter TF-IDF 12-2013 - 03-2014</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2014-3.png" alt="">
-                        <p>Twitter TF-IDF 03-2014 - 06-2014</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2014-6.png" alt="">
-                        <p>Twitter TF-IDF 06-2014 - 09-2014</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2014-9.png" alt="">
-                        <p>Twitter TF-IDF 09-2014 - 12-2014</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2014-12.png" alt="">
-                        <p>Twitter TF-IDF 12-2014 - 03-2015</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2015-3.png" alt="">
-                        <p>Twitter TF-IDF 03-2015 - 06-2015</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2015-6.png" alt="">
-                        <p>Twitter TF-IDF 06-2015 - 09-2015</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2015-9.png" alt="">
-                        <p>Twitter TF-IDF 09-2015 - 12-2015</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2015-12.png" alt="">
-                        <p>Twitter TF-IDF 12-2015 - 03-2016</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2016-3.png" alt="">
-                        <p>Twitter TF-IDF 03-2016 - 06-2016</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2016-6.png" alt="">
-                        <p>Twitter TF-IDF 06-2016 - 09-2016</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2016-9.png" alt="">
-                        <p>Twitter TF-IDF 09-2016 - 12-2016</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wtw/2016-12.png" alt="">
-                        <p>Twitter TF-IDF Most current</p>
                     </div>
                 </div>
                 <br>
