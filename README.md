@@ -24,6 +24,7 @@
 <script src="js/classie.js"></script>
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/scroll.js"></script>
+<script src="js/parallaxImg.js"></script>
 <script src="js/quotes.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
