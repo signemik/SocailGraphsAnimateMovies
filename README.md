@@ -10,6 +10,18 @@
 
 <title> Animated Movies |  Social Graphs 2020</title>
 
+<!-- css -->
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/twitter-quotes.css">
+<link rel="stylesheet" href="css/switch.css" />
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+<link rel="stylesheet" type="text/css" href="css/bar.css"/>
+
+
+
 
 ## Motivation
 
