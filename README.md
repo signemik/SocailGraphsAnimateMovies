@@ -31,7 +31,7 @@
 <script src="nodes_modules/d3-tip/index.js"></script>
 
 
-</header><!-- /header -->
+<!-- </header>/header -->
 
 <div id="main" class="first_main">
     <div id="content">
@@ -49,7 +49,7 @@
         </section>
         <section class="color" id="sentiments">
             <div class="container">
-                <h1>Emotions in politics</h1>
+                <h1>Sentiemnt analysis</h1>
                 <p>Emotions are everywhere. Especially in politics.<br>
                 Recently, The Oxford Dictionaries announced that its Word of the Year 2016 is <b>post-truth</b>.<br>
                 </p>
@@ -74,25 +74,7 @@
                   and comparing it to the sentiment of when they are talking in the parliament meetings shows the average and standard deviation of each politicians sentiment both on
                   twitter and in the meetings. A high average sentiment and low standard deviation sentiment implies a high sentiment in general while a high standard deviation implies
                   a high level of expressivenes.
-                </p>
-                <div style="margin-bottom:25px; margin-left:440px; margin-top:50px">
-                    <p style="float:left">Average Sentiment</p>
-                    <label class="switch" style="margin-left: 10px">
-                      <input id="comBox" type="checkbox" onchange="nodes()">
-                      <div class="slider round" style="background-color:#2196F3"></div>
-                    </label>
-                    <p style="float:right;margin-right: 340px;">Standard Deviation Sentiment</p>
-                </div>
-                <div style="margin-left:170px">
-                  <svg id="svg-bar" style="padding-left:50px; margin-left:-0px" width="960" height="500"></svg>
-                </div>
-                <p>
-                  The chart suggests that Henrik Sass Larsen has a very high sentiment on Twitter while having a more average sentiment in the parliament. Furthermore Pernille
-                  Rosenkrantz has the highest standard deviation on twitter, this implies that she is very expressive in both negative and positive tweets.
-                </p>
                 <br>
-                <h1>How are emotions showing on Danish politicians' Twitter feeds?</h1>
-                <p>The sentiment averages of politicians own tweets (retweets not counted) was used as a basis for creating lists of top most positive tweets and top most negative tweets.<br>
                 Top 3 positive tweets:</p>
 
                 <div class="cd-testimonials-wrapper cd-container positive">
