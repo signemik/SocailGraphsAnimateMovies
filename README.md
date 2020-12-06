@@ -40,12 +40,362 @@
                 <h1 id="contenttitle">Contents</h1>
 
                 <p align="center"> <!--<class="contents">-->
-                    <a href="#sentiments"><img height="150" src="Images/sentiment-analysis.jpg"><br>
-                    &rarr; Sentiment Analysis</a><br><br>
                     <a href="#network"><img height="150" src="Images/network-analysis.jpg"><br>
                     &rarr; Network Analysis</a><br><br>
+                    <a href="#sentiments"><img height="150" src="Images/sentiment-analysis.jpg"><br>
+                    &rarr; Sentiment Analysis</a><br><br>
                 </p>
             </div>
+             </section>
+        <section class="color" id="network">
+            <div class="container">
+                <h1>How are politicians connection if we look at what they say in parliament and how they retweet each other?</h1>
+                <br>
+                <p>
+                  Politicians is heavy users of twitter and the retweet functionality is often used to share the tweets from other politicians.
+                  But how are these retweets connected? Do politician tend to retweet each other more within the same party? Can a party be detected by using the Louvain
+                  algorithm to detect communities?
+                </p>
+                <p>
+                  When politicians talk in the parliament they often mention each other in different contexts whether they agree or disagree with each other.
+                  How are these politicians connected when it comes to mentioning each other? Are some politicians central for the parliament? do politicians within the same
+                  party mention each other more often than politicians from other parties?
+                </p>
+                <div>
+                  <svg id="svg-graph" width="800" height="600" style="float:left"></svg>
+                  <div style="margin: 0 auto; width: 400px; overflow:hidden; height:600px">
+                    <div style="width:250px; display:block">
+                      <p style="float:left">Community</p>
+                      <label class="switch" style="margin-left: 60px">
+                        <input id="comBox" type="checkbox" onchange="toggleCheckbox(this)">
+                        <div class="slider round" style="background-color:#ccc"></div>
+                      </label>
+                      <p style="float:right;margin-right: -8px;">Party</p>
+                    </div>
+                    <div style="width:400px; display:block;">
+                      <p style="margin-left:-82px; float:left">Retweet network</p>
+                      <label class="switch" style="margin-left: 20px">
+                        <input type="checkbox" onchange="changeNetwork(this)">
+                        <div class="slider round"style="background-color:#ccc"></div>
+                      </label>
+                      <p style="float:right; margin-right:40px">Parliament meeting</p>
+                    </div>
+                    <div style="width:250px; height:50px">
+                      <p style="margin-left: -125px;margin-top:20px;float:left;">Node size</p>
+
+                      <div class="dropdown" style="width:160px">
+                        <button onclick="myFunction()" id="dropbtn" class="dropbtn">Static</button>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a onclick="nodeSize('Static')">Static</a>
+                          <a onclick="nodeSize('In degree')">In degree</a>
+                          <a onclick="nodeSize('Out degree')">Out degree</a>
+                          <a onclick="nodeSize('Betweenes centrality')">Betweenness centrality</a>
+                          <a onclick="nodeSize('In degree eigenvector centrality')">In degree eigenvector centrality</a>
+                          <a onclick="nodeSize('Out degree eignevector centrality')">Out degree eignevector centrality</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  The Louvain algorithm does seem to detect 5 different communities, some more distinct than others. This leads us to the previously asked question; do politicians from
+                  the same party tend to retween each other more often and therefore shows the parties as communities in the graph? Coloring the politician nodes with the color
+                  representing their party indicates that the algorithm quiet succesfully managed to find the parties as communities meaning that the politicians do tend to retweet
+                  more within their own party.<br>
+                  Another thing to notice is that both the in and out degree eigenvector centrality is dominant in Socialdemokratiet meaning they often retweet tweets from
+                  politicians that often retweet others and that they often get retweeted by politicians that retweet alot of other politicians. The fact that it appears for both the
+                  in and the out degree eigenvector centrality implies that the politicians in Socialdemokratiet retweet alot and mostly within their own party.
+                </p>
+                <p>
+                  Switching to the parliament graph reveals a new much bigger graph with the three communities found by the Louvain algorithm represented by colors.
+                  The communities does not seem to be very distinct as they all cluster in one big group. Coloring the politician nodes with color based on their party does not
+                  indicate a connection between politicians from the same party. This means that politicians do not mention each other more often within the same party but rather
+                  mentions other politicians more stochastic.<br>
+                  Looking at the betweenness centrality shows that a few politicians seem to dominate the shortest paths, namely Per Clausen from Enhedslisten seem to have a high
+                  betweenness centrality.<br>
+                  Another interesting thing to notice is the out degree eigenvector centrality for Mogen Lykketoft from Socialdemokratiet. It is extremely high compared to other
+                  politicians meaning that he is mentioning alot of politician who also mention alot of other politicians.
+                </p>
+            </div>
+        </section>
+    </div>
+    <div class="parallaxBoring"></div>
+        <section class="container" id="terms">
+            <div class="container"><br><br>
+                <h1>What are the important terms in politics?</h1>
+                <p>Let's have a look at the most important terms in Danish politics throughout the last years.</p>
+
+                <h2>The most important words on <b>Twitter</b> (2009-2016)</h2><br>
+                <div class="cloud-car">
+                    <div class="single-item">
+                        <img src="img/wtw/2009-3.png" alt="">
+                        <p>Twitter TF-IDF 03-2009 - 06-2009</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2009-6.png" alt="">
+                        <p>Twitter TF-IDF 06-2009 - 09-2009</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2009-9.png" alt="">
+                        <p>Twitter TF-IDF 09-2009 - 12-2009</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2009-12.png" alt="">
+                        <p>Twitter TF-IDF 12-2009 - 03-2010</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2010-3.png" alt="">
+                        <p>Twitter TF-IDF 03-2010 - 06-2010</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2010-6.png" alt="">
+                        <p>Twitter TF-IDF 06-2010 - 09-2010</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2010-9.png" alt="">
+                        <p>Twitter TF-IDF 09-2010 - 12-2010</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2010-12.png" alt="">
+                        <p>Twitter TF-IDF 12-2010 - 03-2011</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2011-3.png" alt="">
+                        <p>Twitter TF-IDF 03-2011 - 06-2011</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2011-6.png" alt="">
+                        <p>Twitter TF-IDF 06-2011 - 09-2011</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2011-9.png" alt="">
+                        <p>Twitter TF-IDF 09-2011 - 12-2011</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2011-12.png" alt="">
+                        <p>Twitter TF-IDF 12-2011 - 03-2012</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2012-3.png" alt="">
+                        <p>Twitter TF-IDF 03-2012 - 06-2012</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2012-6.png" alt="">
+                        <p>Twitter TF-IDF 06-2012 - 09-2012</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2012-9.png" alt="">
+                        <p>Twitter TF-IDF 09-2012 - 12-2012</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2012-12.png" alt="">
+                        <p>Twitter TF-IDF 12-2012 - 03-2013</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2013-3.png" alt="">
+                        <p>Twitter TF-IDF 03-2013 - 06-2013</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2013-6.png" alt="">
+                        <p>Twitter TF-IDF 06-2013 - 09-2013</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2013-9.png" alt="">
+                        <p>Twitter TF-IDF 09-2013 - 12-2013</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2013-12.png" alt="">
+                        <p>Twitter TF-IDF 12-2013 - 03-2014</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2014-3.png" alt="">
+                        <p>Twitter TF-IDF 03-2014 - 06-2014</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2014-6.png" alt="">
+                        <p>Twitter TF-IDF 06-2014 - 09-2014</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2014-9.png" alt="">
+                        <p>Twitter TF-IDF 09-2014 - 12-2014</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2014-12.png" alt="">
+                        <p>Twitter TF-IDF 12-2014 - 03-2015</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2015-3.png" alt="">
+                        <p>Twitter TF-IDF 03-2015 - 06-2015</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2015-6.png" alt="">
+                        <p>Twitter TF-IDF 06-2015 - 09-2015</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2015-9.png" alt="">
+                        <p>Twitter TF-IDF 09-2015 - 12-2015</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2015-12.png" alt="">
+                        <p>Twitter TF-IDF 12-2015 - 03-2016</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2016-3.png" alt="">
+                        <p>Twitter TF-IDF 03-2016 - 06-2016</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2016-6.png" alt="">
+                        <p>Twitter TF-IDF 06-2016 - 09-2016</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2016-9.png" alt="">
+                        <p>Twitter TF-IDF 09-2016 - 12-2016</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wtw/2016-12.png" alt="">
+                        <p>Twitter TF-IDF Most current</p>
+                    </div>
+                </div>
+                <br>
+
+                <p>Notice that quite a lot of important events can be identified in the important terms from the tweets. Some examples would be:
+                <ul>
+                    <li>
+                        <p>     - Conflicts &amp; Wars (e.g. Libya, Ukraine)</p>
+                    </li>
+                    <li>
+                        <p>     - Elections (KV, FV, EU)</p>
+                    </li>
+                    <li>
+                        <p>     - Scandals (e.g. tax havens, information hiding, etc.)</p>
+                    </li>
+                </ul></p>
+
+                <h2>How about in the <b>parliament</b>? (2010-2016)</h2>
+                <p>Similarly, we can look at the most important terms from the meetings within the Danish parliament throughout the last years.</p>
+
+                <div class="cloud-car" id="second-car">
+                    <div class="single-item">
+                        <img src="img/wft/2010-10.png" alt="">
+                        <p>Folketinget TF-IDF 10-2010 - 01-2011</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2011-1.png" alt="">
+                        <p>Folketinget TF-IDF 01-2011 - 04-2011</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2011-4.png" alt="">
+                        <p>Folketinget TF-IDF 04-2011 - 07-2011</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2011-7.png" alt="">
+                        <p>Folketinget TF-IDF 07-2011 - 10-2011</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2011-10.png" alt="">
+                        <p>Folketinget TF-IDF 10-2011 - 01-2012</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2012-1.png" alt="">
+                        <p>Folketinget TF-IDF 01-2012 - 04-2012</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2012-4.png" alt="">
+                        <p>Folketinget TF-IDF 04-2012 - 07-2012</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2012-7.png" alt="">
+                        <p>Folketinget TF-IDF 07-2012 - 10-2013</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2012-10.png" alt="">
+                        <p>Folketinget TF-IDF 10-2012 - 01-2013</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2013-1.png" alt="">
+                        <p>Folketinget TF-IDF 01-2013 - 04-2013</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2013-4.png" alt="">
+                        <p>Folketinget TF-IDF 04-2013 - 07-2013</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2013-7.png" alt="">
+                        <p>Folketinget TF-IDF 07-2013 - 10-2013</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2013-10.png" alt="">
+                        <p>Folketinget TF-IDF 10-2013 - 01-2014</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2014-1.png" alt="">
+                        <p>Folketinget TF-IDF 01-2014 - 04-2014</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2014-4.png" alt="">
+                        <p>Folketinget TF-IDF 04-2014 - 07-2014</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2014-7.png" alt="">
+                        <p>Folketinget TF-IDF 07-2014 - 10-2014</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2014-10.png" alt="">
+                        <p>Folketinget TF-IDF 10-2014 - 01-2015</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2015-1.png" alt="">
+                        <p>Folketinget TF-IDF 01-2015 - 04-2015</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2015-4.png" alt="">
+                        <p>Folketinget TF-IDF 04-2015 - 07-2015</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2015-7.png" alt="">
+                        <p>Folketinget TF-IDF 07-2015 - 10-2015</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2015-10.png" alt="">
+                        <p>Folketinget TF-IDF 10-2015 - 01-2016</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2016-1.png" alt="">
+                        <p>Folketinget TF-IDF 01-2016 - 04-2016</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2016-4.png" alt="">
+                        <p>Folketinget TF-IDF 04-2016 - 07-2016</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2016-7.png" alt="">
+                        <p>Folketinget TF-IDF 07-2016 - 10-2016</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wft/2016-10.png" alt="">
+                        <p>Folketinget TF-IDF 10-2016 - present time</p>
+                    </div>
+                </div>
+
+
+                <p>The important terms extracted from the Danish parliament seem to confirm the notion that real politics is a boring business. Jokes aside, the wordclouds does seem to represent a less colorful corpus of words. This makes sense intuitively, as Twitter is (or was) limited to 140 characters, which forces its messenger to create a strong, clear, and to-the-point wording, while meetings in the parliament can go on for hours.</p>
+                <p>Looking at the most weighted terms (rare words) across all documents does seem to capture some of the colors that frequent terms has washed out:</p>
+
+                <img src="img/wordcloud-all.png" alt="" id="cloudplot">
+
+                <h2>Clustering by important terms</h2>
+                <p>Usinger sklearn's linear kernel module, we can compute the pairwise cosine similarity between politicians and parties. After the similarities have been determined, we can cluster the politicians or parties, using our favourite clustering algorithm. We tried spectral clustering and KMeans that worked quite well for this particular task.</p>
+
+                <div class="twoplotc"><img src="img/party_2_plots.png" alt="" class="twoplots" id="cloudplot"><img src="img/party_3_plots_spectral.png" alt="" class="twoplots" id="cloudplot"></div>
+
+                <p>From the plots we can see that when we set the clustering method two extract two plots, the Danish parties are creating one cluster while the foreign parties (Faroe Islands and Greenland) are creating another.</p>
+                <p>For three clusters we see that Alternativet, Kristendemokraterne and Non-Party Members join in on a new cluster.</p><br><br>
+
+            </div>
+        </section>
+        </section>
+    </div>
+</div><!-- #main -->
         </section>
         <section class="color" id="sentiments">
             <div class="container">
@@ -299,7 +649,78 @@
         </section>
     </div>
 </div><!-- #main -->
+<div class="parallaxPol"></div>
 
+<div id="main">
+    <div id="content">
+        <section>
+        <div class="container">
+                <h1>How about the use of #hashtags on Twitter?</h1>
+                <p>The use of hashtags is an effective way to create, emphasize, or send a message.<br>
+                How do the use of hashtags differ across the political spectrum? Let's have a look at some stats.<br></p>
+                <h2>The most #hashtagging politicians and party</h2>
+                <div class="plot-car">
+                    <div class="single-item">
+                        <img src="img/plots/frequent-hashtags.png" alt="">
+                        <p>Most frequently used hashtags by Danish politicians</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/plots/most-hashtags-per-tweet-per-politician.png" alt="">
+                        <p>Most hashtagging Danish politicians</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/plots/most-hashtags-per-tweet-per-party.png" alt="">
+                        <p>Most hashtagging Danish politic party</p>
+                    </div>
+                </div>
+                <br>
+
+                <p>Notice that #dkpol is vastly dominating the distribution of hashtags. Around one third of all tweets by Danish politicians include this hashtag. Several hashtags created by various news media seem to by popular. For example, the top 10 includes #fv15, #ftlive and #tv2valg as popular hashtags.<br><br>
+                But how do the parties actually differ? We can use tfidf to seperate the hashtags of each party and gain knowledge of the unique keywords for each individual party.</p>
+
+                <h2>What do parties say with their #hashtags?</h2>
+                <div class="img-car">
+                    <div class="single-item">
+                        <img src="img/wordcloud/alt.png" alt="">
+                        <p>Alternativet's hashtags (top tfidf as sizes)</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wordcloud/df.png" alt="">
+                        <p>Dansk Folkeparti's hashtags (top tfidf as sizes)</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wordcloud/el.png" alt="">
+                        <p>Enhedslisten's hashtags (top tfidf as sizes)</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wordcloud/kon.png" alt="">
+                        <p>De Konservative's hashtags (top tfidf as sizes)</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wordcloud/la.png" alt="">
+                        <p>Liberal Alliance's hashtags (top tfidf as sizes)</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wordcloud/r.png" alt="">
+                        <p>Radikale Venstre's hashtags (top tfidf as sizes)</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wordcloud/s.png" alt="">
+                        <p>Socialdemokratiet's hashtags (top tfidf as sizes)</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wordcloud/sf.png" alt="">
+                        <p>Socialistisk Folkeparti's hashtags (top tfidf as sizes)</p>
+                    </div>
+                    <div class="single-item">
+                        <img src="img/wordcloud/v.png" alt="">
+                        <p>Venstre's hashtags (top tfidf as sizes)</p>
+                    </div>
+                </div>
+                <p>The wordsclouds does capture phrases commonly associated with the parties. Examples are Alternativet,
+                which tends to use hashtags such as #venligrevolution, #elbil, and #nypolitiskkultur, and Dansk Folkeparti,
+                which include hashtags such as #meredkmindreeu, #grænsekontrol, and #sønderjylland among its defining hashtags.</p><br>
+            </div>
 
 ## Motivation
 
