@@ -32,7 +32,7 @@
 <script src="nodes_modules/d3/build/d3.min.js"></script>
 <script src="nodes_modules/d3-tip/index.js"></script>
 <script src="js/jquery.js" type="text/javascript"></script>
-<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+<!--<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
 <script src="js/parallaxImg.js" type="text/javascript"></script>
  <link rel="stylesheet" type="text/css" href="css/demotheme.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -45,7 +45,28 @@
       };
 
       parallaxImgScroll(parallaxSettings);
-    });
+    });-->
+    <script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+</head>
+<body>
+
+<div id="wrapper">
   </script>
 <!-- </header>/header -->
 
@@ -135,18 +156,6 @@
             </div>
         </section>
     </div>
-    
-    <div class="parallax-img-container">
-      <h1>The day Internet was the future</h1>
-      <p>Some static text that will not move</p>
-    &lt;!-- here I put the elements that will move.. they dont 
-    have to necessarily be at the bottom of the container --&gt;
-  
-    &lt;img class="parallax-move"src="Images/sentiment-analysis.jpg" /&gt;
-    &lt;div class="parallax-move"&gt;something here&lt;/div&gt;
-    &lt;p class="parallax-move"&gt;text that will move&lt;/p&gt;
-    &lt;/div&gt;
-    
     
     <div class="parallax-img-container"></div>
         <section class="container" id="terms">
