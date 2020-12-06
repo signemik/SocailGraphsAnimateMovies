@@ -142,6 +142,10 @@ function showDivs(n) {
                    </div>
                   </div>
                   </div>
+                  <div class="w3-container">
+      <h2>Slideshow Indicators</h2>
+      <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
+          </div>      
                 <div class="w3-content" style="max-width:800px">
                 <p align="center">
                 <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
