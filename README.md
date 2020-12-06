@@ -33,6 +33,34 @@
 <script src="nodes_modules/d3/build/d3.min.js"></script>
 <script src="nodes_modules/d3-tip/index.js"></script>
 <script src="js/jquery.js" type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none}
+</style>
+<body>
+
+<div class="w3-container">
+  <h2>Slideshow Indicators</h2>
+  <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
+</div>
+
+<div class="w3-content" style="max-width:800px">
+  <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
+  <img class="mySlides" src="Images/sentiemnt-analysis.jpg" style="width:20%">
+  <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
+</div>
+
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+  <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+  <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+  <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+</div>
+</body>
 <script>
  var slideIndex = 1;
 showDivs(slideIndex);
@@ -61,33 +89,7 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-white";
 }
 </script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-.mySlides {display:none}
-</style>
-<body>
 
-<div class="w3-container">
-  <h2>Slideshow Indicators</h2>
-  <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
-</div>
-
-<div class="w3-content" style="max-width:800px">
-  <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
-  <img class="mySlides" src="Images/sentiemnt-analysis.jpg" style="width:20%">
-  <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
-</div>
-
-<div class="w3-center">
-  <div class="w3-section">
-    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
-    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
-  </div>
-  <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
-  <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
-  <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
-</div>
 
 <!--<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
 <script src="js/parallaxImg.js" type="text/javascript"></script>
