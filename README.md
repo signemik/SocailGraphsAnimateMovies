@@ -30,6 +30,49 @@
 <script src="nodes_modules/d3/build/d3.min.js"></script>
 <script src="nodes_modules/d3-tip/index.js"></script>
 
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+</head>
+<body>
+
+<div id="wrapper">
+
+<header>
+    <div class="container clearfix">
+        <nav class="left">
+            <a href="#wrapper">Introduction</a>
+            <a href="#sentiments">Sentiments</a>
+        </nav>
+
+        <h1 id="logo">
+            <a href="#wrapper">Social graphs 2020</a>
+        </h1>
+
+        <nav class="navright">
+            <a href="#network">Network</a>
+            <a href="#terms">Terms</a>
+        </nav>
+        <div id="downloads">
+            <a href="https://nbviewer.jupyter.org/github/NicolaiPorskrog/nicolaiporskrog.github.io/blob/master/assets/Explainer-Notebook.ipynb">View the explainer notebook</a><br>
+            <a href="https://github.com/NicolaiPorskrog/nicolaiporskrog.github.io/tree/master/assets">Get the datasets here</a>
+        </div>
+</div>
+    </div>
 
 ## Motivation
 
