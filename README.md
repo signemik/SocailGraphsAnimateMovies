@@ -46,9 +46,9 @@
 </div>
 
 <div class="w3-content w3-display-container" style="max-width:800px">
-  <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:100%">
-  <img class="mySlides" src="Images/network-analysis.jpg" style="width:100%">
-  <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:100%">
+  <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
+  <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
+  <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
     <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
@@ -57,7 +57,6 @@
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
   </div>
 </div>
-</body>
 <script>
  var slideIndex = 1;
 showDivs(slideIndex);
@@ -86,6 +85,7 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-white";
 }
 </script>
+</body>
 
 
 <!--<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
