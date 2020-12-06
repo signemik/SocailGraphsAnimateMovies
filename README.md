@@ -46,22 +46,6 @@
 
       parallaxImgScroll(parallaxSettings);
     });-->
-    <script>
-    function init() {
-        window.addEventListener('scroll', function(e){
-            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 300,
-                header = document.querySelector("header");
-            if (distanceY > shrinkOn) {
-                classie.add(header,"smaller");
-            } else {
-                if (classie.has(header,"smaller")) {
-                    classie.remove(header,"smaller");
-                }
-            }
-        });
-    }
-    window.onload = init();
 </script>
 </head>
 <body>
@@ -507,15 +491,15 @@
                 <h2>The most #hashtagging politicians and party</h2>
                 <div class="plot-car">
                     <div class="single-item">
-                        <img src="img/plots/frequent-hashtags.png" alt="">
+                        <img src="Images/sentiment-analysis.jpg" alt="">
                         <p>Most frequently used hashtags by Danish politicians</p>
                     </div>
                     <div class="single-item">
-                        <img src="img/plots/most-hashtags-per-tweet-per-politician.png" alt="">
+                        <img src="Images/sentiment-analysis.jpg" alt="">
                         <p>Most hashtagging Danish politicians</p>
                     </div>
                     <div class="single-item">
-                        <img src="img/plots/most-hashtags-per-tweet-per-party.png" alt="">
+                        <img src="Images/sentiment-analysis.jpg"alt="">
                         <p>Most hashtagging Danish politic party</p>
                     </div>
                 </div>
