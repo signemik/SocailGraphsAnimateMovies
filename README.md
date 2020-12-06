@@ -47,9 +47,11 @@
 
 
 <div class="w3-content" style="max-width:800px">
+  <p align="center">
   <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
   <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
   <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
+  </p>
 </div>
 <div class="w3-center">
   <div class="w3-section">
