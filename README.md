@@ -66,6 +66,20 @@
         <section class="color" id="network">
             <div class="container">
                 <h1>Network analysis </h1>
+                <div class="w3-content w3-display-container">
+                  <img class="mySlides" src="Images/sentiment-analysis.jpg">
+                  <img class="mySlides" src="Images/sentiment-analysis.jpg">
+                  <img class="mySlides" src="Images/sentiment-analysis.jpg">
+                  <div class="w3-center w3-display-bottommiddle" style="width:100%">
+                   <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+                    <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
+                    <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+                    <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+                    <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+                   </div>
+                  </div>
+                
+                
                 <br>
                 <p>
                   Politicians is heavy users of twitter and the retweet functionality is often used to share the tweets from other politicians.
@@ -478,7 +492,7 @@
 
 <div id="main">
     <div id="content">
-        <section>
+        <section> 
         <div class="container">
                 <h1>How about the use of #hashtags on Twitter?</h1>
                 <p>The use of hashtags is an effective way to create, emphasize, or send a message.<br>
