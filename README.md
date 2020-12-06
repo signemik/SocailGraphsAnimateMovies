@@ -120,7 +120,7 @@
             </div>
         </section>
     </div>
-    <div class="parallaxBoring"></div>
+    <div class="parallaxImg"></div>
         <section class="container" id="terms">
             <div class="container"><br><br>
                 <h1>What are the important terms in politics?</h1>
