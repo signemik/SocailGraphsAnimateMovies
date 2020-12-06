@@ -49,6 +49,25 @@
       parallaxImgScroll(parallaxSettings);
     });-->
 <!-- </header>/header -->
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
+
 
 <div id="main" class="first_main">
     <div id="content">
@@ -78,6 +97,8 @@
                     <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
                     <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
                    </div>
+                  </div>
+                  </div>
                   </div>
                 
                 
