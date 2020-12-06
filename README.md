@@ -25,11 +25,16 @@
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/scroll.js"></script>
 <script src="js/parallaxImg.js" type="text/javascript"></script>
+<script src="js/parallaxImg.js"></script>
 <script src="js/quotes.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="nodes_modules/d3/build/d3.min.js"></script>
 <script src="nodes_modules/d3-tip/index.js"></script>
+
+ $(document).on("ready", function() {
+      parallaxImgScroll();
+    }); 
 
 
 <!-- </header>/header -->
@@ -120,9 +125,7 @@
             </div>
         </section>
     </div>
-     $(document).on("ready", function() {
-      parallaxImgScroll();
-    }); 
+    
     <div class="parallax-img-container">
       <h1>The day Internet was the future</h1>
       <p>Some static text that will not move</p>
