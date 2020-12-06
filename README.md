@@ -31,10 +31,33 @@
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="nodes_modules/d3/build/d3.min.js"></script>
 <script src="nodes_modules/d3-tip/index.js"></script>
-
  $(document).on("ready", function() {
       parallaxImgScroll();
     }); 
+parallaxImgScroll(parallaxSettings);
+ <article class="parallax-img-container">
+      <h1>Parallax Image Scroll</h1>
+      <h3>Give life to your website</h3>
+      <a class="btn-download-init" href="js/parallaxImg.js">Download .JS</a>
+      <!-- images for parallax -->
+      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position="420" />
+      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5" data-ps-vertical-position="700" data-ps-horizontal-position="220" />
+      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position="300" />
+      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5" data-ps-vertical-position="500" data-ps-horizontal-position="620" />
+      <img src="Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="600" data-ps-horizontal-position="0" />
+      <img src=""Images/network-analysis.jpg" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.4" data-ps-vertical-position="200" data-ps-horizontal-position="520" />
+    </article>
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!-- </header>/header -->
@@ -204,110 +227,6 @@
 
                 <h2>How about in the <b>parliament</b>? (2010-2016)</h2>
                 <p>Similarly, we can look at the most important terms from the meetings within the Danish parliament throughout the last years.</p>
-
-                <div class="cloud-car" id="second-car">
-                    <div class="single-item">
-                        <img src="img/wft/2010-10.png" alt="">
-                        <p>Folketinget TF-IDF 10-2010 - 01-2011</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2011-1.png" alt="">
-                        <p>Folketinget TF-IDF 01-2011 - 04-2011</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2011-4.png" alt="">
-                        <p>Folketinget TF-IDF 04-2011 - 07-2011</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2011-7.png" alt="">
-                        <p>Folketinget TF-IDF 07-2011 - 10-2011</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2011-10.png" alt="">
-                        <p>Folketinget TF-IDF 10-2011 - 01-2012</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2012-1.png" alt="">
-                        <p>Folketinget TF-IDF 01-2012 - 04-2012</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2012-4.png" alt="">
-                        <p>Folketinget TF-IDF 04-2012 - 07-2012</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2012-7.png" alt="">
-                        <p>Folketinget TF-IDF 07-2012 - 10-2013</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2012-10.png" alt="">
-                        <p>Folketinget TF-IDF 10-2012 - 01-2013</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2013-1.png" alt="">
-                        <p>Folketinget TF-IDF 01-2013 - 04-2013</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2013-4.png" alt="">
-                        <p>Folketinget TF-IDF 04-2013 - 07-2013</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2013-7.png" alt="">
-                        <p>Folketinget TF-IDF 07-2013 - 10-2013</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2013-10.png" alt="">
-                        <p>Folketinget TF-IDF 10-2013 - 01-2014</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2014-1.png" alt="">
-                        <p>Folketinget TF-IDF 01-2014 - 04-2014</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2014-4.png" alt="">
-                        <p>Folketinget TF-IDF 04-2014 - 07-2014</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2014-7.png" alt="">
-                        <p>Folketinget TF-IDF 07-2014 - 10-2014</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2014-10.png" alt="">
-                        <p>Folketinget TF-IDF 10-2014 - 01-2015</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2015-1.png" alt="">
-                        <p>Folketinget TF-IDF 01-2015 - 04-2015</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2015-4.png" alt="">
-                        <p>Folketinget TF-IDF 04-2015 - 07-2015</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2015-7.png" alt="">
-                        <p>Folketinget TF-IDF 07-2015 - 10-2015</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2015-10.png" alt="">
-                        <p>Folketinget TF-IDF 10-2015 - 01-2016</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2016-1.png" alt="">
-                        <p>Folketinget TF-IDF 01-2016 - 04-2016</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2016-4.png" alt="">
-                        <p>Folketinget TF-IDF 04-2016 - 07-2016</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2016-7.png" alt="">
-                        <p>Folketinget TF-IDF 07-2016 - 10-2016</p>
-                    </div>
-                    <div class="single-item">
-                        <img src="img/wft/2016-10.png" alt="">
-                        <p>Folketinget TF-IDF 10-2016 - present time</p>
-                    </div>
-                </div>
-
 
                 <p>The important terms extracted from the Danish parliament seem to confirm the notion that real politics is a boring business. Jokes aside, the wordclouds does seem to represent a less colorful corpus of words. This makes sense intuitively, as Twitter is (or was) limited to 140 characters, which forces its messenger to create a strong, clear, and to-the-point wording, while meetings in the parliament can go on for hours.</p>
                 <p>Looking at the most weighted terms (rare words) across all documents does seem to capture some of the colors that frequent terms has washed out:</p>
