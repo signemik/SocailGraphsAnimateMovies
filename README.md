@@ -135,7 +135,7 @@
     &lt;/div&gt;
     
     
-    <div class="parallaxImg"></div>
+    <div class="parallax-img-container"></div>
         <section class="container" id="terms">
             <div class="container"><br><br>
                 <h1>What are the important terms in politics?</h1>
