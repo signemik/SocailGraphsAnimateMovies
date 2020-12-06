@@ -65,8 +65,6 @@ function showDivs(n) {
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
 .mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
 </style>
 <body>
 
@@ -75,20 +73,21 @@ function showDivs(n) {
   <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
 </div>
 
-<div class="w3-content w3-display-container" style="max-width:800px">
+<div class="w3-content" style="max-width:800px">
   <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
-  <img class="mySlides" src="Images/sentiememt-analysis.jpg" style="width:20%">
+  <img class="mySlides" src="Images/sentiemnt-analysis.jpg" style="width:20%">
   <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
-  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-  </div>
 </div>
-</body>                                                                                               
 
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+  <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+  <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+  <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+</div>
 
 <!--<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
 <script src="js/parallaxImg.js" type="text/javascript"></script>
