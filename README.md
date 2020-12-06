@@ -47,11 +47,6 @@
       parallaxImgScroll(parallaxSettings);
     });-->
 </script>
-</head>
-<body>
-
-<div id="wrapper">
-  </script>
 <!-- </header>/header -->
 
 <div id="main" class="first_main">
