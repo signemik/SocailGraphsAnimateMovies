@@ -32,6 +32,7 @@
 <script src="nodes_modules/d3/build/d3.min.js"></script>
 <script src="nodes_modules/d3-tip/index.js"></script>
 <script src="js/jquery.js" type="text/javascript"></script>
+</script>
 <!--<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
 <script src="js/parallaxImg.js" type="text/javascript"></script>
  <link rel="stylesheet" type="text/css" href="css/demotheme.css">
@@ -46,7 +47,6 @@
 
       parallaxImgScroll(parallaxSettings);
     });-->
-</script>
 <!-- </header>/header -->
 
 <div id="main" class="first_main">
