@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>-->
 <html lang="en">
 
-<head>
+<!--<head>-->
 
 <!-- title and meta -->
 <meta charset="utf-8" />
@@ -39,10 +39,10 @@
             <div class="container">
                 <h1 id="contenttitle">Contents</h1>
 
-                <p align="center"><class="contents">
-                    <a href="#sentiments"><img height="300" src="Images/sentiment-analysis.jpg"><br>
+                <p align="center"> <!--<class="contents">-->
+                    <a href="#sentiments"><img height="150" src="Images/sentiment-analysis.jpg"><br>
                     &rarr; Sentiment Analysis</a><br><br>
-                    <a href="#network"><img height="300" src="Images/network-analysis.jpg"><br>
+                    <a href="#network"><img height="150" src="Images/network-analysis.jpg"><br>
                     &rarr; Network Analysis</a><br><br>
                 </p>
             </div>
