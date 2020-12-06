@@ -142,7 +142,23 @@ function showDivs(n) {
                    </div>
                   </div>
                   </div>
-                
+                <div class="w3-content" style="max-width:800px">
+                <p align="center">
+                <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
+                <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
+                 <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
+                  </p>
+                </div>
+                  <div class="w3-center">
+                  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+        </div>
+        <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+        <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+        <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+        </div>
+
                 
                 <br>
                 <p>
