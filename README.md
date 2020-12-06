@@ -31,10 +31,25 @@
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="nodes_modules/d3/build/d3.min.js"></script>
 <script src="nodes_modules/d3-tip/index.js"></script>
- $(document).on("ready", function() {
-      parallaxImgScroll();
-    }); 
-parallaxImgScroll(parallaxSettings);
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+<script src="js/parallaxImg.js" type="text/javascript"></script>
+ <link rel="stylesheet" type="text/css" href="css/demotheme.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <script type="text/javascript">
+    $(document).on("ready", function() {
+      var parallaxSettings = {
+        initialOpacity: 1, //from 0 to 1, e.g. 0.34 is a valid value. 0 = transparent, 1 = Opaque
+        opacitySpeed: 0.1, //values from 0.01 to 1 -> 0.01: slowly appears on screen; 1: appears as soon as the user scrolls 1px
+        pageLoader: true
+      };
+
+      parallaxImgScroll(parallaxSettings);
+    });
+  </script>
+
+
+
 <section>
     <article class="parallax-img-container">
       <h2>Fixed content</h2>
