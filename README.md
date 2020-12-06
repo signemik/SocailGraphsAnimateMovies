@@ -24,7 +24,7 @@
 <script src="js/classie.js"></script>
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/scroll.js"></script>
-<script src="js/parallaxImg.js"></script>
+<script src="js/parallaxImg.js" type="text/javascript"></script>
 <script src="js/quotes.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
@@ -120,6 +120,21 @@
             </div>
         </section>
     </div>
+     $(document).on("ready", function() {
+      parallaxImgScroll();
+    }); 
+    <div class="parallax-img-container">
+      <h1>The day Internet was the future</h1>
+      <p>Some static text that will not move</p>
+    &lt;!-- here I put the elements that will move.. they dont 
+    have to necessarily be at the bottom of the container --&gt;
+  
+    &lt;img class="parallax-move"src="Images/sentiment-analysis.jpg" /&gt;
+    &lt;div class="parallax-move"&gt;something here&lt;/div&gt;
+    &lt;p class="parallax-move"&gt;text that will move&lt;/p&gt;
+    &lt;/div&gt;
+    
+    
     <div class="parallaxImg"></div>
         <section class="container" id="terms">
             <div class="container"><br><br>
