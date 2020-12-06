@@ -77,7 +77,7 @@ function showDivs(n) {
 
 <div class="w3-content w3-display-container" style="max-width:800px">
   <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
-  <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
+  <img class="mySlides" src="Images/sentiememt-analysis.jpg" style="width:20%">
   <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
