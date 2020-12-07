@@ -41,7 +41,7 @@
 
 Relationship between disneys movies.
 
-<a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true">Data for project</a>
+<a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true">View Data</a>
 
 
 <h1 id="contenttitle">Contents</h1>
