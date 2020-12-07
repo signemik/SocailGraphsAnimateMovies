@@ -147,6 +147,7 @@ Relationship between disneys movies.
 <style>
 .mySlides {display:none}
 </style>
+<body>
 <div class="w3-content" style="max-width:800px">
   <p align="center">
   <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
