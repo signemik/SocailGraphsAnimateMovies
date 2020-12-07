@@ -159,7 +159,7 @@ Relationship between disneys movies.
   </div>
  <button class="w3-button demo" onclick="currentDiv(1)">4</button> 
   <button class="w3-button demo" onclick="currentDiv(2)">5</button> 
-  <button class="w3-button demo" onclick="currentDiv(3)">6/button>
+  <button class="w3-button demo" onclick="currentDiv(3)">6</button>
 </div>
 
 <script>
