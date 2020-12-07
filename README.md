@@ -59,6 +59,52 @@ Relationship between disneys movies.
 <section class="color" id="statistics">
  <div class="container">
        <h1>Statistics</h1>
+   Below can the distribution of number of movies in the different production studios be seen.
+   <table rules="groups">
+  <thead>
+    <tr>
+      <th style="text-align: center">Production Studio</th>
+      <th style="text-align: center">Number of movies</th>
+     </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Sullivan Bluth Studio</td>
+      <td style="text-align: left">8</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">DreamWorks</td>
+      <td style="text-align: left">38</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Blue Sky</td>
+      <td style="text-align: left">13</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Illumation</td>
+      <td style="text-align: left">10</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Warner Bros. Animation productions</td>
+      <td style="text-align: left">15</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Sony Pictures Animation productions</td>
+      <td style="text-align: left">19</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Pixar</td>
+      <td style="text-align: left">23</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Disney</td>
+      <td style="text-align: left">95</td>
+    </tr>
+  </tbody>
+</table>
+
+   
+   
  <h2>Top 5 movies based on average user scores</h2>
 <table rules="groups">
   <thead>
