@@ -186,10 +186,10 @@ function showDivs1(n) {
     x[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace("w3-red", "");
+    dots[i].className = dots[i].className.replace(" w3-blue", "");
   }
   x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-red";
+  dots[slideIndex-1].className += " w3-blue";
 }
 </script>
 </body>
