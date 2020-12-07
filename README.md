@@ -63,24 +63,22 @@ Relationship between disneys movies.
 <table rules="groups">
   <thead>
     <tr>
-      <th style="text-align: left">Header1</th>
-      <th style="text-align: center">Header2</th>
-      <th style="text-align: right">Header3</th>
+      <th style="text-align: center">Movie</th>
+      <th style="text-align: center">Average User Score</th>
+      <th style="text-align: center">Production studio</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">cell1</td>
-      <td style="text-align: center">cell2</td>
-      <td style="text-align: right">cell3</td>
+      <td style="text-align: left">Spider-Man: Into the Spider-Verse</td>
+      <td style="text-align: left">4.61</td>
+      <td style="text-align: left">Sony Pictures Animation productions</td>
     </tr>
     <tr>
-      <td style="text-align: left">cell4</td>
-      <td style="text-align: center">cell5</td>
-      <td style="text-align: right">cell6</td>
+      <td style="text-align: left">Coco</td>
+      <td style="text-align: left">4.56</td>
+      <td style="text-align: left">Pixar</td>
     </tr>
-  </tbody>
-  <tbody>
     <tr>
       <td style="text-align: left">cell1</td>
       <td style="text-align: center">cell2</td>
@@ -91,14 +89,12 @@ Relationship between disneys movies.
       <td style="text-align: center">cell5</td>
       <td style="text-align: right">cell6</td>
     </tr>
-  </tbody>
-  <tfoot>
     <tr>
       <td style="text-align: left">Foot1</td>
       <td style="text-align: center">Foot2</td>
       <td style="text-align: right">Foot3</td>
     </tr>
-  </tfoot>
+  </tbody>
 </table>
 
 <div class="w3-container">
