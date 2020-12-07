@@ -192,17 +192,10 @@ hello
 <div class="w3-content" style="max-width:800px">
   <p align="center">
   <img class="mySlides1" src="Images/statistics.jpg" style="width:20%"> 
-   <p>Scale model of the
-    Eiffel tower in
-    Parc Mini-France
-     <img class="mySlides1" src="Images/statistics.jpg"  style="width:20%"> <p>Scale model of the
-    Eiffel tower in
-    Parc Mini-France
-   <img class="mySlides1" title="Fun Tag Goes Here" src="Images/network-analysis.jpg" style="width:20%"><p>Scale model of the
-    Eiffel tower in
-    Parc Mini-France
+     <img class="mySlides1" src="Images/statistics.jpg"  style="width:20%"> 
+   <img class="mySlides1" title="Fun Tag Goes Here" src="Images/network-analysis.jpg" style="width:20%">
   </p>
-</div>
+
 <div class="w3-center">
   <div class="w3-section">
     <button class="w3-button w3-light-grey" onclick="plusDivs1(-1)">❮ Prev</button>
