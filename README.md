@@ -253,7 +253,7 @@ hello
     <div class="w3-display-topmiddle w3-padding w3-hide-small">Top Middle</div>
     <div class="w3-display-bottommiddle w3-padding w3-hide-small">Bottom Middle</div>
   </div>
-   <div class=class="mySlides1">
+   <div class="mySlides1">
   <div class="w3-display-container w3-green" style="height:300px;">
     <div class="w3-display-topleft w3-padding">Top Left</div>
     <div class="w3-display-topright w3-padding">Top Right</div>
@@ -308,7 +308,7 @@ function showDivs1(n) {
   
 }
 </script>
-</body>
+<!--</body>-->
  
 text
     
