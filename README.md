@@ -213,13 +213,13 @@ showDivs1(slideIndex);
 function plusDivs1(n) {
   showDivs1(slideIndex += n);
     var texts=["Hello","No","Love"];
-    texts[n].print();
+    (texts[n].print());
     }
 
 function currentDiv1(n) {
   showDivs1(slideIndex = n);
    var texts=["Hello","No","Love"];
-    texts[n].print();
+    (texts[n].print());
 }
 
 function showDivs1(n) {
