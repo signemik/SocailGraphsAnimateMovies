@@ -36,19 +36,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-
-<div class="bss-slides demo1" tabindex="1">
-            <figure>
-		      <img src="Images/statistics.jpg" width="20%" /><figcaption>"Medium" by.</figcaption> 
-            </figure>
-            <figure>
-		      <img src="Images/statistics.jpg" width="20%" /><figcaption>"Colorado" by .</figcaption> 
-            </figure>
-            <figure>
-		      <img src="Images/statistics.jpg" width="20%" /><figcaption>"Early Morning at the Monte Vista Wildlife Refuge, Colorado" by.</figcaption> 
-            </figure>
-
-
 <h1 id="Motivation">Motivation</h1>
 
 Relationship between disneys movies.
