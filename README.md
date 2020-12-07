@@ -265,6 +265,7 @@ hello
     <div class="w3-display-topmiddle w3-padding w3-hide-small">Top Middle</div>
     <div class="w3-display-bottommiddle w3-padding w3-hide-small">Bottom Middle</div>
        </div>
+     <\div>
 <div class="w3-center">
   <div class="w3-section">
     <button class="w3-button w3-light-grey" onclick="plusDivs1(-1)">❮ Prev</button>
@@ -274,7 +275,6 @@ hello
   <button class="w3-button demo1" onclick="currentDiv1(2)">2</button> 
   <button class="w3-button demo1" onclick="currentDiv1(3)">3</button>
 </div>
-       </div>
 <script>
  var slideIndex = 1;
 showDivs1(slideIndex);
