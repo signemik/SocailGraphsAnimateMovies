@@ -147,9 +147,9 @@ Relationship between disneys movies.
 
 <div class="w3-content" style="max-width:800px">
   <p align="center">
-  <img class="mySlides" src="Images/statistics.jpg" style="width:20%">
-  <img class="mySlides" src="Images/statistics.jpg" style="width:20%">
-  <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
+  <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
+  <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
+  <img class="mySlides1" src="Images/network-analysis.jpg" style="width:20%">
   </p>
 </div>
 <div class="w3-center">
@@ -157,26 +157,26 @@ Relationship between disneys movies.
     <button class="w3-button w3-light-grey" onclick="plusDivs1(-1)">❮ Prev</button>
     <button class="w3-button w3-light-grey" onclick="plusDivs1(1)">Next ❯</button>
   </div>
- <button class="w3-button demo" onclick="currentDiv1(1)">4</button> 
-  <button class="w3-button demo" onclick="currentDiv1(2)">5</button> 
-  <button class="w3-button demo" onclick="currentDiv1(3)">6</button>
+ <button class="w3-button demo" onclick="currentDiv1(1)">1</button> 
+  <button class="w3-button demo" onclick="currentDiv1(2)">2</button> 
+  <button class="w3-button demo" onclick="currentDiv1(3)">3</button>
 </div>
 
 <script>
  var slideIndex = 1;
-showDivs(slideIndex);
+showDivs1(slideIndex);
 
 function plusDivs1(n) {
-  showDivs(slideIndex += n);
+  showDivs1(slideIndex += n);
 }
 
 function currentDiv1(n) {
-  showDivs(slideIndex = n);
+  showDivs1(slideIndex = n);
 }
 
-function showDivs(n) {
+function showDivs1(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("mySlides1");
   var dots = document.getElementsByClassName("demo");
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
