@@ -85,10 +85,10 @@ function showDivs(n) {
     x[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-white", "");
+    dots[i].className = dots[i].className.replace(" w3-red", "");
   }
   x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
+  dots[slideIndex-1].className += " w3-red";
 }
 </script>
 </body>
@@ -144,7 +144,9 @@ Relationship between disneys movies.
   <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
 </div>
 
-
+<style>
+.mySlides {display:none}
+</style>
 <div class="w3-content" style="max-width:800px">
   <p align="center">
   <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
@@ -184,10 +186,10 @@ function showDivs1(n) {
     x[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-white", "");
+    dots[i].className = dots[i].className.replace("w3-red", "");
   }
   x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
+  dots[slideIndex-1].className += " w3-red";
 }
 </script>
 </body>
