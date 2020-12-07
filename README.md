@@ -185,16 +185,16 @@ Relationship between disneys movies.
   <h2>Plots</h2>
   <p>Some text.</p>
 </div>
-
+hello
 <style>
 .mySlides {display:none}
 </style>
 <body>
 <div class="w3-content" style="max-width:800px">
   <p align="center">
-  <img class="mySlides1" src="Images/statistics.jpg" alt="Girl in a jacket" style="width:20%">
-      <img class="mySlides1" src="Images/statistics.jpg" alt="Boy in a jacket" style="width:20%">
-    <img class="mySlides1" src="Images/network-analysis.jpg" alt="Girl in a hat" style="width:20%">
+  <img class="mySlides1" title="Hello Tag Goes Here" src="Images/statistics.jpg" style="width:20%">
+      <img class="mySlides1" title="Title Tag Goes Here" src="Images/statistics.jpg" style="width:20%">
+    <img class="mySlides1" title="Fun Tag Goes Here" src="Images/network-analysis.jpg" style="width:20%">
   </p>
 </div>
 <div class="w3-center">
