@@ -60,7 +60,6 @@ Relationship between disneys movies.
  <div class="container">
        <h1>Statistics</h1>
  
-|-----------------+------------+-----------------+----------------|
 | Default aligned |Left aligned| Center aligned  | Right aligned  |
 |-----------------|:-----------|:---------------:|---------------:|
 | First body part |Second cell | Third cell      | fourth cell    |
