@@ -229,9 +229,51 @@ hello
 <body>
 <div class="w3-content" style="max-width:800px">
   <p align="center">
-  <img class="mySlides1" src="Images/statistics.jpg" style="width:20%"> 
-     <img class="mySlides1" src="Images/statistics.jpg"  style="width:20%"> 
-   <img class="mySlides1" title="Fun Tag Goes Here" src="Images/network-analysis.jpg" style="width:20%">
+  <div class="w3-container">
+  <h1>Using w3-display-container</h1>
+
+  <div class="w3-display-container w3-green" style="height:300px;">
+    <div class="w3-display-topleft w3-padding">Top Left</div>
+    <div class="w3-display-topright w3-padding">Top Right</div>
+    <div class="w3-display-bottomleft w3-padding">Bottom Left</div>
+    <div class="w3-display-bottomright w3-padding">Bottom Right</div>
+    <div class="w3-display-left w3-padding">Left</div>
+    <div class="w3-display-right w3-padding">Right</div>
+    <div class="w3-display-middle w3-padding">Middle</div>
+    <div class="w3-display-topmiddle w3-padding w3-hide-small">Top Middle</div>
+    <div class="w3-display-bottommiddle w3-padding w3-hide-small">Bottom Middle</div>
+  </div>
+</div>
+     <div class="w3-container">
+
+
+  <div class="w3-display-container w3-green" style="height:300px;">
+    <div class="w3-display-topleft w3-padding">Top Left</div>
+    <div class="w3-display-topright w3-padding">Top Right</div>
+    <div class="w3-display-bottomleft w3-padding">Bottom Left</div>
+    <div class="w3-display-bottomright w3-padding">Bottom Right</div>
+    <div class="w3-display-left w3-padding">Left</div>
+    <div class="w3-display-right w3-padding">Right</div>
+    <div class="w3-display-middle w3-padding">Middle</div>
+    <div class="w3-display-topmiddle w3-padding w3-hide-small">Top Middle</div>
+    <div class="w3-display-bottommiddle w3-padding w3-hide-small">Bottom Middle</div>
+  </div>
+</div>
+   <div class="w3-container">
+
+
+  <div class="w3-display-container w3-green" style="height:300px;">
+    <div class="w3-display-topleft w3-padding">Top Left</div>
+    <div class="w3-display-topright w3-padding">Top Right</div>
+    <div class="w3-display-bottomleft w3-padding">Bottom Left</div>
+    <div class="w3-display-bottomright w3-padding">Bottom Right</div>
+    <div class="w3-display-left w3-padding">Left</div>
+    <div class="w3-display-right w3-padding">Right</div>
+    <div class="w3-display-middle w3-padding">Middle</div>
+    <div class="w3-display-topmiddle w3-padding w3-hide-small">Top Middle</div>
+    <div class="w3-display-bottommiddle w3-padding w3-hide-small">Bottom Middle</div>
+  </div>
+</div>
   </p>
 
 <div class="w3-center">
