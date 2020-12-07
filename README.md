@@ -154,23 +154,23 @@ Relationship between disneys movies.
 </div>
 <div class="w3-center">
   <div class="w3-section">
-    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
-    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs1(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs1(1)">Next ❯</button>
   </div>
- <button class="w3-button demo" onclick="currentDiv(1)">4</button> 
-  <button class="w3-button demo" onclick="currentDiv(2)">5</button> 
-  <button class="w3-button demo" onclick="currentDiv(3)">6</button>
+ <button class="w3-button demo" onclick="currentDiv1(1)">4</button> 
+  <button class="w3-button demo" onclick="currentDiv1(2)">5</button> 
+  <button class="w3-button demo" onclick="currentDiv1(3)">6</button>
 </div>
 
 <script>
  var slideIndex = 1;
 showDivs(slideIndex);
 
-function plusDivs(n) {
+function plusDivs1(n) {
   showDivs(slideIndex += n);
 }
 
-function currentDiv(n) {
+function currentDiv1(n) {
   showDivs(slideIndex = n);
 }
 
