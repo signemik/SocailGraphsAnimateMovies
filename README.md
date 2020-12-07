@@ -184,16 +184,18 @@ Relationship between disneys movies. Hello
   <h2>Plots</h2>
   <p>Some text.</p>
 </div>
-hello FUCK!!!
+hello
 <style>
 .mySlides {display:none}
 </style>
 <body>
 <div class="w3-content" style="max-width:800px">
   <p align="center">
-  <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
-      <img class="mySlides1" src="Images/statistics.jpg"  style="width:20%">
-    <img class="mySlides1" title="Fun Tag Goes Here" src="Images/network-analysis.jpg" style="width:20%">
+    <a>
+  <img class="mySlides1" src="Images/statistics.jpg" style="width:20%"> 
+      <div style='width: 130px; text-align: center;'>I just love to visit this most beautiful place in all the world.</div> <\a>
+     <a> <img class="mySlides1" src="Images/statistics.jpg"  style="width:20%"> <div style='width: 130px; text-align: center;'>I just love to visit this most beautiful place in all the world.</div> <\a>
+   <a> <img class="mySlides1" title="Fun Tag Goes Here" src="Images/network-analysis.jpg" style="width:20%"><div style='width: 130px; text-align: center;'>I just love to visit this most beautiful place in all the world.</div><\a>
   </p>
 </div>
 <div class="w3-center">
@@ -212,14 +214,11 @@ showDivs1(slideIndex);
 
 function plusDivs1(n) {
   showDivs1(slideIndex += n);
-    var texts=["Hello","No","Love"];
-    (texts[n].print());
     }
 
 function currentDiv1(n) {
   showDivs1(slideIndex = n);
-   var texts=["Hello","No","Love"];
-    (texts[n].print());
+    
 }
 
 function showDivs1(n) {
