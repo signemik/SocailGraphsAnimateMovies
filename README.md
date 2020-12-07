@@ -267,7 +267,6 @@ hello
 </div>
        </div>
     </div>
-  </p>
 <div class="w3-center">
   <div class="w3-section">
     <button class="w3-button w3-light-grey" onclick="plusDivs1(-1)">❮ Prev</button>
