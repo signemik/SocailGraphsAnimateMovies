@@ -192,9 +192,9 @@ Relationship between disneys movies.
 <body>
 <div class="w3-content" style="max-width:800px">
   <p align="center">
-  <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
-      <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
-    <img class="mySlides1" src="Images/network-analysis.jpg" style="width:20%">
+  <img class="mySlides1" src="Images/statistics.jpg" alt="Girl in a jacket" style="width:20%">
+      <img class="mySlides1" src="Images/statistics.jpg" alt="Boy in a jacket" style="width:20%">
+    <img class="mySlides1" src="Images/network-analysis.jpg" alt="Girl in a hat" style="width:20%">
   </p>
 </div>
 <div class="w3-center">
@@ -208,11 +208,6 @@ Relationship between disneys movies.
 </div>
 
 <script>
-  
- var texts =["Hello","Yay","Awesome"]
- $(window).on("backstretch.show", function (e, instance) {
-  $(".overlay").text( texts[instance.index] );
-});
  var slideIndex = 1;
 showDivs1(slideIndex);
 
