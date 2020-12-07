@@ -113,7 +113,7 @@ function showDivs(n) {
 <h1 id="Motivation">Motivation</h1>
 
 Relationship between disneys movies.
-<div class="text-blue">
+<div class="text-blue mb-2">
 <a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true">Data for project</a>
 </div>
 <!--[Data for project](https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true)-->
