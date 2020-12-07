@@ -209,7 +209,7 @@ Relationship between disneys movies.
 
 <script>
   
- var text =["Hello","Yay","Awesome"]
+ var texts =["Hello","Yay","Awesome"]
  $(window).on("backstretch.show", function (e, instance) {
   $(".overlay").text( texts[instance.index] );
 });
