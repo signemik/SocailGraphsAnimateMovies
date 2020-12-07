@@ -241,7 +241,6 @@ hello
     <div class="w3-display-topmiddle w3-padding w3-hide-small">Top Middle</div>
     <div class="w3-display-bottommiddle w3-padding w3-hide-small">Bottom Middle</div>
 </div>
-    <\div>
      <div class="mySlides1">
   <div class="w3-display-container w3-green" style="height:300px;">
     <div class="w3-display-topleft w3-padding">Top Left</div>
@@ -254,7 +253,6 @@ hello
     <div class="w3-display-topmiddle w3-padding w3-hide-small">Top Middle</div>
     <div class="w3-display-bottommiddle w3-padding w3-hide-small">Bottom Middle</div>
   </div>
-      </div>
    <div class="mySlides1">
   <div class="w3-display-container w3-green" style="height:300px;">
     <div class="w3-display-topleft w3-padding">Top Left</div>
@@ -266,7 +264,6 @@ hello
     <div class="w3-display-middle w3-padding">Hello</div>
     <div class="w3-display-topmiddle w3-padding w3-hide-small">Top Middle</div>
     <div class="w3-display-bottommiddle w3-padding w3-hide-small">Bottom Middle</div>
-</div>
        </div>
 <div class="w3-center">
   <div class="w3-section">
@@ -277,6 +274,7 @@ hello
   <button class="w3-button demo1" onclick="currentDiv1(2)">2</button> 
   <button class="w3-button demo1" onclick="currentDiv1(3)">3</button>
 </div>
+       </div>
 <script>
  var slideIndex = 1;
 showDivs1(slideIndex);
