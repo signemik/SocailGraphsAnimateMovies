@@ -180,8 +180,26 @@ Relationship between disneys movies. Hello
   </tbody>
 </table>
 
-<div class="w3-container">
-  <h2>Plots</h2>
+
+
+
+<h3 div class="w3-container"> Plots<\h3>
+  <div class="w3-content" style="max-width:400px">
+    <div class="mySlides w3-container w3-red">
+    <h1><b>Did You Know?</b></h1>
+    <h1><i>We plan to sell trips to the moon in the 2020s</i></h1>
+  </div>
+    <h1><b>Did You Know?</b></h1>
+    <h1><i>We plan to sell trips to the moon in the 2020s</i></h1>
+  </div>
+  <h1><b>Did You Know?</b></h1>
+    <h1><i>We plan to sell trips to the moon in the 2020s</i></h1>
+  </div>
+    <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs1(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs1(1)">Next ❯</button>
+  </div>
+  <!--<h2>Plots</h2>-->
   <p>Some text.</p>
 </div>
 hello
