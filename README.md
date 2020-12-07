@@ -37,7 +37,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
-<div class="bss-slides demo1" tabindex="1" autofocus="autofocus">
+<div class="bss-slides demo1" tabindex="1">
             <figure>
 		      <img src="Images/statistics.jpg" width="20%" /><figcaption>"Medium" by.</figcaption> 
             </figure>
