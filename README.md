@@ -125,7 +125,7 @@ Relationship between disneys movies.
                 <h1 id="contenttitle">Contents</h1>
                 <p align="center"> <!--<class="contents">-->
                     <a href="#statistics"><img height="150" src="Images/network-analysis.jpg"><br>
-                    &rarr; Network Analysis</a><br><br>
+                    &rarr; Statistics</a><br><br>
                     <a href="#network"><img height="150" src="Images/network-analysis.jpg"><br>
                     &rarr; Network Analysis</a><br><br>
                     <a href="#sentiments"><img height="150" src="Images/sentiment-analysis.jpg"><br>
