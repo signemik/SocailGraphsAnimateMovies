@@ -58,9 +58,9 @@
     <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
     <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
   </div>
- <!-- <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+ <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
   <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
-  <button class="w3-button demo" onclick="currentDiv(3)">3</button> -->
+  <button class="w3-button demo" onclick="currentDiv(3)">3</button>
 </div>
 
 <script>
@@ -157,9 +157,9 @@ Relationship between disneys movies.
     <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
     <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
   </div>
- <!-- <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+ <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
   <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
-  <button class="w3-button demo" onclick="currentDiv(3)">3</button> -->
+  <button class="w3-button demo" onclick="currentDiv(3)">3</button>
 </div>
 
 <script>
