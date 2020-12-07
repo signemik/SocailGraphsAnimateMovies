@@ -65,8 +65,7 @@ Relationship between disneys movies.
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
     
-       <body>
-
+       
 <div class="w3-container">
   <h2>Plots</h2>
   <p>Some text.</p>
