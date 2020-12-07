@@ -193,8 +193,11 @@ Relationship between disneys movies.
 <div class="w3-content" style="max-width:800px">
   <p align="center">
   <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
+    <aside class="notes">The stars, they are winking at you! And, if you wink too, there may be someone out there winking back!</aside>
   <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
+  <aside class="notes">The stars, they are winking at you! And, if you wink too, there may be someone out there winking back!</aside>
   <img class="mySlides1" src="Images/network-analysis.jpg" style="width:20%">
+  <aside class="notes">The stars, they are winking at you! And, if you wink too, there may be someone out there winking back!</aside>
   </p>
 </div>
 <div class="w3-center">
