@@ -59,7 +59,8 @@ Relationship between disneys movies.
 <section class="color" id="statistics">
  <div class="container">
        <h1>Statistics</h1>
- <h2>Top 10 movies based on average user score <\h2>
+ <h2>Top 5 movies based on average user score<\h2>
+   
 <table rules="groups">
   <thead>
     <tr>
@@ -91,8 +92,8 @@ Relationship between disneys movies.
     </tr>
     <tr>
       <td style="text-align: left">The Lion King (1994)</td>
-      <td style="text-align: center">4.45</td>
-      <td style="text-align: right">Disney</td>
+      <td style="text-align: left">4.45</td>
+      <td style="text-align: left">Disney</td>
     </tr>
   </tbody>
 </table>
