@@ -59,9 +59,12 @@ Relationship between disneys movies.
 <section class="color" id="statistics">
  <div class="container">
        <h1>Statistics</h1>
-   <div class="w3-container">
-          <h2>Top 5 movies based on average user score<\h2>
-            <\div>
+  <div class="w3-container">
+  <h2>Top 5 movies based on average user score<\h2>
+  <p>Some text.</p>
+</div>
+         
+           
    
 <table rules="groups">
   <thead>
