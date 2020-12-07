@@ -126,6 +126,7 @@ text
 <section class="color" id="network">
     <div class="container">
         <h1>Network analysis </h1>
+      <img src="Images/GraphNodeProduction.PNG" height="600">
       some text <br>
       <img src="Images/Cirkel.PNG" height="600"> 
       <br>
