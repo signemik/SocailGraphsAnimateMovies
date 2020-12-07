@@ -19,6 +19,7 @@
 <link rel="stylesheet" type="text/css" href="css/slick.css"/>
 <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 <link rel="stylesheet" type="text/css" href="css/bar.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 <!-- js -->
 <script src="js/classie.js"></script>
@@ -27,6 +28,7 @@
 <script src="js/parallaxImg.js" type="text/javascript"></script>
 <script src="js/parallaxImg.js"></script>
 <script src="js/quotes.js"></script>
+script src="js/script.js"></script>
 <script src="js/select.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
@@ -36,6 +38,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+
+<div class="bss-slides demo1" tabindex="1" autofocus="autofocus">
+            <figure>
+		      <img src="Images/statistics.jpg" width="20%" /><figcaption>"Medium" by.</figcaption> 
+            </figure>
+            <figure>
+		      <img src="Images/statistics.jpg" width="20%" /><figcaption>"Colorado" by .</figcaption> 
+            </figure>
+            <figure>
+		      <img src="Images/statistics.jpg" width="20%" /><figcaption>"Early Morning at the Monte Vista Wildlife Refuge, Colorado" by.</figcaption> 
+            </figure>
+ <\div>
 
 <h1 id="Motivation">Motivation</h1>
 
