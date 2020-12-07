@@ -60,6 +60,11 @@ Relationship between disneys movies.
  <div class="container">
        <h1>Statistics</h1>
    Some text
+   
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
         <body>
 
 <div class="w3-container">
