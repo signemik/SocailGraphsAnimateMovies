@@ -235,7 +235,7 @@ hello
     <div class="w3-display-topright w3-padding">Top Right</div>
     <div class="w3-display-bottomleft w3-padding">Bottom Left</div>
     <div class="w3-display-bottomright w3-padding">Bottom Right</div>
-    <div class="w3-display-left w3-padding">Left</div>
+    <div class="w3-display-left w3-padding"><img src="Images/sentiment-analysis.jpg" alt="Snow" style="width:50%"></div>
     <div class="w3-display-right w3-padding">Right</div>
     <div class="w3-display-middle w3-padding">Love</div>
     <div class="w3-display-topmiddle w3-padding w3-hide-small">Top Middle</div>
@@ -265,6 +265,7 @@ hello
     <div class="w3-display-topmiddle w3-padding w3-hide-small">Top Middle</div>
     <div class="w3-display-bottommiddle w3-padding w3-hide-small">Bottom Middle</div>
 </div>
+       </div>
   </p>
 <div class="w3-center">
   <div class="w3-section">
