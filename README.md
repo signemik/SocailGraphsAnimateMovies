@@ -60,7 +60,7 @@ Relationship between disneys movies.
  <div class="container">
        <h1>Statistics</h1>
  <h2>Top 5 movies based on average user score<\h2>
-   
+   <\div>
 <table rules="groups">
   <thead>
     <tr>
