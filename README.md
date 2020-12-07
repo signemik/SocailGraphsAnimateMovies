@@ -61,10 +61,11 @@ Relationship between disneys movies.
        <h1>Statistics</h1>
    Some text
    
-| First Header  | Second Header |
-| :-----------: | :-----------: | 
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
         <body>
 
 <div class="w3-container">
