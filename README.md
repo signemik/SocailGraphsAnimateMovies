@@ -124,7 +124,7 @@ Relationship between disneys movies.
             <div class="container">-->
                 <h1 id="contenttitle">Contents</h1>
                 <p align="center"> <!--<class="contents">-->
-                    <a href="#statistics"><img height="150" src="Images/network-analysis.jpg"><br>
+                    <a href="#statistics"><img height="150" src="Images/statistics.jpg"><br>
                     &rarr; Statistics</a><br><br>
                     <a href="#network"><img height="150" src="Images/network-analysis.jpg"><br>
                     &rarr; Network Analysis</a><br><br>
@@ -137,7 +137,27 @@ Relationship between disneys movies.
 <section class="color" id="statistics">
  <div class="container">
        <h1>Statistics</h1>
+        <div class="w3-content" style="max-width:800px">
+  <p align="center">
+  <img class="mySlides" src="Images/statistics.jpg" style="width:20%">
+  <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
+  <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
+  </p>
+</div>
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+  <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+  <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+  <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+</div>
  
+    
+    
+    
+    
     
 <section class="color" id="network">
     <div class="container">
