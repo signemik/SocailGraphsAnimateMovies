@@ -42,7 +42,7 @@
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 50%;
   padding: 5px;
 }
 
@@ -84,10 +84,10 @@ Relationship between disneys movies. Hello
 
 <div class="row">
   <div class="column">
-    <img src="Images/sentiment-analysis.jpg" alt="Snow" style="width:20%">
+    <img src="Images/sentiment-analysis.jpg" alt="Snow" style="width:50%">
   </div>
   <div class="column">
-    <img src="Images/sentiment-analysis.jpg" alt="Forest" style="width:20%">
+    <img src="Images/sentiment-analysis.jpg" alt="Forest" style="width:50%">
   </div>
    
    Below can the distribution of number of movies in the different production studios be seen.
