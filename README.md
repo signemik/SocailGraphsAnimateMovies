@@ -110,12 +110,11 @@ function showDivs(n) {
     });-->
 <!-- </header>/header -->
 
-## Motivation
+<h1> Motivation<\hl>
+  Relationship between disneys movies.
 
-Relationship between disneys movies.
 
-
-## Download link
+<h1> Link <\h1>
 [Data for project](https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true)
 
 
@@ -161,8 +160,8 @@ Relationship between disneys movies.
                      </body>
 
 <\div>
+     </section>
 </div><!-- #main -->
-        </section>
         <section class="color" id="sentiments">
             <div class="container">
                 <h1>Sentiemnt analysis</h1>
