@@ -192,9 +192,12 @@ hello
 <body>
 <div class="w3-content" style="max-width:800px">
   <p align="center">
-  <img class="mySlides1" title="Hello Tag Goes Here" src="Images/statistics.jpg" alt="Hello Tag Goes Here" style="width:20%">
-      <img class="mySlides1" title="Title Tag Goes Here" src="Images/statistics.jpg" alt="Title Tag Goes Here" style="width:20%">
-    <img class="mySlides1" title="Fun Tag Goes Here" src="Images/network-analysis.jpg" alt="Fun Tag Goes Here" style="width:20%">
+  <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
+    <figcaption>Fig.1 -  Italy.</figcaption>
+      <img class="mySlides1" src="Images/statistics.jpg"  style="width:20%">
+    <figcaption>Fig.2 - Trulli.</figcaption>
+    <img class="mySlides1" title="Fun Tag Goes Here" src="Images/network-analysis.jpg" style="width:20%">
+    <figcaption>Fig.3 -  Puglia.</figcaption>
   </p>
 </div>
 <div class="w3-center">
