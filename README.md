@@ -49,7 +49,7 @@
             <figure>
 		      <img src="Images/statistics.jpg" width="20%" /><figcaption>"Early Morning at the Monte Vista Wildlife Refuge, Colorado" by.</figcaption> 
             </figure>
- <\div>
+
 
 <h1 id="Motivation">Motivation</h1>
 
