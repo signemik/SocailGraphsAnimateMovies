@@ -35,7 +35,99 @@
 <script src="js/jquery.js" type="text/javascript"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<h1 id="Motivation">Motivation</h1>
+
+Relationship between disneys movies.
+
+<a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true">Data for project</a>
+
+
+<h1 id="contenttitle">Contents</h1>
+                <p align="center"> <!--<class="contents">-->
+                    <a href="#statistics"><img height="150" src="Images/statistics.jpg"><br>
+                    &rarr; Statistics</a><br><br>
+                    <a href="#network"><img height="150" src="Images/network-analysis.jpg"><br>
+                    &rarr; Network Analysis</a><br><br>
+                    <a href="#sentiments"><img height="150" src="Images/sentiment-analysis.jpg"><br>
+                    &rarr; Sentiment Analysis</a><br><br>
+                </p>
+          
+  
+  
+<section class="color" id="statistics">
+ <div class="container">
+       <h1>Statistics</h1>
+   Some text
+        <body>
+
+<div class="w3-container">
+  <h2>Plots</h2>
+  <p>Some text.</p>
+</div>
+
 <style>
+.mySlides {display:none}
+</style>
+<body>
+<div class="w3-content" style="max-width:800px">
+  <p align="center">
+  <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
+  <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
+  <img class="mySlides1" src="Images/network-analysis.jpg" style="width:20%">
+  </p>
+</div>
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs1(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs1(1)">Next ❯</button>
+  </div>
+ <button class="w3-button demo1" onclick="currentDiv1(1)">1</button> 
+  <button class="w3-button demo1" onclick="currentDiv1(2)">2</button> 
+  <button class="w3-button demo1" onclick="currentDiv1(3)">3</button>
+</div>
+
+<script>
+ var slideIndex = 1;
+showDivs1(slideIndex);
+
+function plusDivs1(n) {
+  showDivs1(slideIndex += n);
+}
+
+function currentDiv1(n) {
+  showDivs1(slideIndex = n);
+}
+
+function showDivs1(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("demo1");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-blue", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-blue";
+}
+</script>
+</body>
+ 
+text
+    
+    
+    
+    
+<section class="color" id="network">
+    <div class="container">
+        <h1>Network analysis </h1>
+      some text
+            <style>
 .mySlides {display:none}
 </style>
 <body>
@@ -94,124 +186,13 @@ function showDivs(n) {
 </body>
 
 
-<!--<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
-<script src="js/parallaxImg.js" type="text/javascript"></script>
- <link rel="stylesheet" type="text/css" href="css/demotheme.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <script type="text/javascript">
-    $(document).on("ready", function() {
-      var parallaxSettings = {
-        initialOpacity: 1, //from 0 to 1, e.g. 0.34 is a valid value. 0 = transparent, 1 = Opaque
-        opacitySpeed: 0.1, //values from 0.01 to 1 -> 0.01: slowly appears on screen; 1: appears as soon as the user scrolls 1px
-        pageLoader: true
-      };
-
-      parallaxImgScroll(parallaxSettings);
-    });-->
-<!-- </header>/header -->
-
-<h1 id="Motivation">Motivation</h1>
-
-Relationship between disneys movies.
-<div class="text-blue mb-2">
-<a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true">Data for project</a>
-</div>
-<!--[Data for project](https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true)-->
-
-<!--<div id="main" class="first_main">
-    <div id="content">
-        <section id="one">
-            <div class="container">-->
-                <h1 id="contenttitle">Contents</h1>
-                <p align="center"> <!--<class="contents">-->
-                    <a href="#statistics"><img height="150" src="Images/statistics.jpg"><br>
-                    &rarr; Statistics</a><br><br>
-                    <a href="#network"><img height="150" src="Images/network-analysis.jpg"><br>
-                    &rarr; Network Analysis</a><br><br>
-                    <a href="#sentiments"><img height="150" src="Images/sentiment-analysis.jpg"><br>
-                    &rarr; Sentiment Analysis</a><br><br>
-                </p>
-          
-  
-  
-<section class="color" id="statistics">
- <div class="container">
-       <h1>Statistics</h1>
-        <body>
-
-<div class="w3-container">
-  <h2>Slideshow Indicators</h2>
-  <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
-</div>
-
-<style>
-.mySlides {display:none}
-</style>
-<body>
-<div class="w3-content" style="max-width:800px">
-  <p align="center">
-  <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
-  <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
-  <img class="mySlides1" src="Images/network-analysis.jpg" style="width:20%">
-  </p>
-</div>
-<div class="w3-center">
-  <div class="w3-section">
-    <button class="w3-button w3-light-grey" onclick="plusDivs1(-1)">❮ Prev</button>
-    <button class="w3-button w3-light-grey" onclick="plusDivs1(1)">Next ❯</button>
-  </div>
- <button class="w3-button demo1" onclick="currentDiv1(1)">1</button> 
-  <button class="w3-button demo1" onclick="currentDiv1(2)">2</button> 
-  <button class="w3-button demo1" onclick="currentDiv1(3)">3</button>
-</div>
-
-<script>
- var slideIndex = 1;
-showDivs1(slideIndex);
-
-function plusDivs1(n) {
-  showDivs1(slideIndex += n);
-}
-
-function currentDiv1(n) {
-  showDivs1(slideIndex = n);
-}
-
-function showDivs1(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides1");
-  var dots = document.getElementsByClassName("demo1");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-blue", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-blue";
-}
-</script>
-</body>
- 
-    
-    
-    
-    
-    
-<section class="color" id="network">
-    <div class="container">
-        <h1>Network analysis </h1>
-            
-
+haha
                     
  
 <section class="color" id="sentiments">
  <div class="container">
        <h1>Sentiemnt analysis</h1>
-                
-                   
+ wuhuu    
 
 
 
