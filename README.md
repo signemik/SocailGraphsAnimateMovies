@@ -124,20 +124,27 @@ Relationship between disneys movies.
             <div class="container">-->
                 <h1 id="contenttitle">Contents</h1>
                 <p align="center"> <!--<class="contents">-->
+                    <a href="#statistics"><img height="150" src="Images/network-analysis.jpg"><br>
+                    &rarr; Network Analysis</a><br><br>
                     <a href="#network"><img height="150" src="Images/network-analysis.jpg"><br>
                     &rarr; Network Analysis</a><br><br>
                     <a href="#sentiments"><img height="150" src="Images/sentiment-analysis.jpg"><br>
                     &rarr; Sentiment Analysis</a><br><br>
                 </p>
           
-      
+  
+  
+<section class="color" id="sentiments">
+ <div class="container">
+       <h1>Sentiemnt analysis</h1>
+ 
     
-        <section class="color" id="network">
-            <div class="container">
-                <h1>Network analysis </h1>
-                  <div class="w3-container">
-                    <h2>Slideshow Indicators</h2>
-                        <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
+<section class="color" id="network">
+    <div class="container">
+        <h1>Network analysis </h1>
+            <div class="w3-container">
+                 <h2>Slideshow Indicators</h2>
+                     <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
                    </div> 
                    <style>
                   .mySlides {display:none}
@@ -155,9 +162,8 @@ Relationship between disneys movies.
                     </div>
                      </body>
 
-                        <\div>
-                            </section>
-      </div><!-- #main -->
+                    
+ 
 <section class="color" id="sentiments">
  <div class="container">
        <h1>Sentiemnt analysis</h1>
