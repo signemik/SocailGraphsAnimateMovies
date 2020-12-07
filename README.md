@@ -19,7 +19,6 @@
 <link rel="stylesheet" type="text/css" href="css/slick.css"/>
 <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 <link rel="stylesheet" type="text/css" href="css/bar.css"/>
-<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 <!-- js -->
 <script src="js/classie.js"></script>
