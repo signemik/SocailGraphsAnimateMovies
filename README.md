@@ -277,7 +277,6 @@ hello
   <button class="w3-button demo1" onclick="currentDiv1(2)">2</button> 
   <button class="w3-button demo1" onclick="currentDiv1(3)">3</button>
 </div>
-
 <script>
  var slideIndex = 1;
 showDivs1(slideIndex);
@@ -308,8 +307,7 @@ function showDivs1(n) {
   
 }
 </script>
-<!--</body>-->
- 
+</body>
 text
     
     
