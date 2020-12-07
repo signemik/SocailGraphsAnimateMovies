@@ -157,9 +157,9 @@ Relationship between disneys movies.
     <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
     <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
   </div>
- <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
-  <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
-  <button class="w3-button demo" onclick="currentDiv(3)">3</button>
+ <button class="w3-button demo" onclick="currentDiv(1)">4</button> 
+  <button class="w3-button demo" onclick="currentDiv(2)">5</button> 
+  <button class="w3-button demo" onclick="currentDiv(3)">6/button>
 </div>
 
 <script>
@@ -200,20 +200,7 @@ function showDivs(n) {
 <section class="color" id="network">
     <div class="container">
         <h1>Network analysis </h1>
-            <div class="w3-container">
-                 <h2>Slideshow Indicators</h2>
-                     <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
-                    <div class="w3-content" style="max-width:800px">        
-                        <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
-                        <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
-                        <img class="mySlides" src="Images/network-analysis.jpg" style="width:20%">
-                     </div>
-                    <div class="w3-center">
-                      <button class="w3-button demo" onclick="currentDiv(1)">4</button> 
-                      <button class="w3-button demo" onclick="currentDiv(2)">5</button> 
-                      <button class="w3-button demo" onclick="currentDiv(3)">6</button> 
-                    </div>
-                     </div>
+            
 
                     
  
