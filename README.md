@@ -35,6 +35,27 @@
 <script src="js/jquery.js" type="text/javascript"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+
+
 
 <h1 id="Motivation">Motivation</h1>
 
@@ -58,6 +79,17 @@ Relationship between disneys movies. Hello
 <section class="color" id="statistics">
  <div class="container">
        <h1>Statistics</h1>
+   <h2>Images Side by Side</h2>
+<p>How to create side-by-side images with the CSS float property:</p>
+
+<div class="row">
+  <div class="column">
+    <img src="Images/sentiment-analysis.jpg" alt="Snow" style="width:20%">
+  </div>
+  <div class="column">
+    <img src="Images/sentiment-analysis.jpg" alt="Forest" style="width:20%">
+  </div>
+   
    Below can the distribution of number of movies in the different production studios be seen.
    <table rules="groups">
   <thead>
