@@ -62,7 +62,7 @@ Relationship between disneys movies.
    Some text
    
 | First Header  | Second Header |
-| ------------- | ------------- |
+| :-----------: | :-----------: | 
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
         <body>
