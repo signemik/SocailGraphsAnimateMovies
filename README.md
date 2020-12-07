@@ -266,6 +266,7 @@ hello
     <div class="w3-display-bottommiddle w3-padding w3-hide-small">Bottom Middle</div>
 </div>
        </div>
+    </div>
   </p>
 <div class="w3-center">
   <div class="w3-section">
