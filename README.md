@@ -230,8 +230,6 @@ hello
 <div class="w3-content" style="max-width:800px">
   <p align="center">
   <div class="w3-container">
-  <h1>Using w3-display-container</h1>
-
   <div class="w3-display-container w3-green" style="height:300px;">
     <div class="w3-display-topleft w3-padding">Top Left</div>
     <div class="w3-display-topright w3-padding">Top Right</div>
@@ -245,8 +243,6 @@ hello
   </div>
 </div>
      <div class="w3-container">
-
-
   <div class="w3-display-container w3-green" style="height:300px;">
     <div class="w3-display-topleft w3-padding">Top Left</div>
     <div class="w3-display-topright w3-padding">Top Right</div>
@@ -260,8 +256,6 @@ hello
   </div>
 </div>
    <div class="w3-container">
-
-
   <div class="w3-display-container w3-green" style="height:300px;">
     <div class="w3-display-topleft w3-padding">Top Left</div>
     <div class="w3-display-topright w3-padding">Top Right</div>
@@ -275,7 +269,6 @@ hello
   </div>
 </div>
   </p>
-
 <div class="w3-center">
   <div class="w3-section">
     <button class="w3-button w3-light-grey" onclick="plusDivs1(-1)">❮ Prev</button>
