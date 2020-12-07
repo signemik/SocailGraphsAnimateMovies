@@ -109,11 +109,9 @@ function showDivs(n) {
       parallaxImgScroll(parallaxSettings);
     });-->
 <!-- </header>/header -->
-<div class="w3-container">
-        <h1>Motivation<\h1>
-            <p>Relationship between disneys movies.<\p> 
-              [Data for project](https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true)
-<\div>
+ # Motivation
+ Relationship between disneys movies. 
+ [Data for project](https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true)
 
 
 <div id="main" class="first_main">
