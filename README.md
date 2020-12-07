@@ -109,14 +109,18 @@ function showDivs(n) {
       parallaxImgScroll(parallaxSettings);
     });-->
 <!-- </header>/header -->
-<section class="color" id="motivation">
+<div id="main" class="first_main">
+    <div id="content">
+        <section id="one">
             <div class="container">
-        <h1> Motivation <\h1>
+        <h1>Motivation <\h1>
             Relationship between disneys movies. 
-<h1> Link <\h1>
-[Data for project](https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true)
-  <\div>
-  <\section>
+      <h1>Link <\h1>
+      [Data for project](https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true)
+          </div>
+           <\section>
+          <\div>
+         <\div>
 
 
 <div id="main" class="first_main">
