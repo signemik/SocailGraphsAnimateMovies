@@ -59,14 +59,12 @@ Relationship between disneys movies.
 <section class="color" id="statistics">
  <div class="container">
        <h1>Statistics</h1>
-   
-        | Tables        | Are           | Cool  |
-        | ------------- |:-------------:| -----:|
-        | col 3 is      | right-aligned | $1600 |
-        | col 2 is      | centered      |   $12 |
-        | zebra stripes | are neat      |    $1 |
-       
-       
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+    
        <body>
 
 <div class="w3-container">
