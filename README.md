@@ -97,6 +97,44 @@ Relationship between disneys movies.
   </tbody>
 </table>
 
+<h2>Worst 5 movies based on average user scores</h2>
+<table rules="groups">
+  <thead>
+    <tr>
+      <th style="text-align: center">Movie</th>
+      <th style="text-align: center">Average User Score</th>
+      <th style="text-align: center">Production studio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Ice Age: Collision Course</td>
+      <td style="text-align: left">2.42</td>
+      <td style="text-align: left">Blue Sky</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Emoji Movie</td>
+      <td style="text-align: left">2.64</td>
+      <td style="text-align: left">Sony Pictures Animation productions</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Home on the Range</td>
+      <td style="text-align: left">2.68</td>
+      <td style="text-align: left">Disney</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Wild</td>
+      <td style="text-align: left">2.68</td>
+      <td style="text-align: left">Disney</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Doug's 1st Movie</td>
+      <td style="text-align: left">2.74</td>
+      <td style="text-align: left">Disney</td>
+    </tr>
+  </tbody>
+</table>
+
 <div class="w3-container">
   <h2>Plots</h2>
   <p>Some text.</p>
