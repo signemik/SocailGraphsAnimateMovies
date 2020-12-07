@@ -114,9 +114,8 @@ function showDivs(n) {
         <section id="one">
             <div class="container">
         <h1>Motivation <\h1>
-            Relationship between disneys movies. 
-      <h1>Link <\h1>
-      [Data for project](https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true)
+            <p>Relationship between disneys movies.
+              [Data for project](https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx?raw=true)<\p> 
           </div>
            <\section>
           <\div>
