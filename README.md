@@ -191,11 +191,16 @@ hello
 <body>
 <div class="w3-content" style="max-width:800px">
   <p align="center">
-    <a>
   <img class="mySlides1" src="Images/statistics.jpg" style="width:20%"> 
-      <div style='width: 130px; text-align: center;'>I just love to visit this most beautiful place in all the world.</div> <\a>
-     <a> <img class="mySlides1" src="Images/statistics.jpg"  style="width:20%"> <div style='width: 130px; text-align: center;'>I just love to visit this most beautiful place in all the world.</div> <\a>
-   <a> <img class="mySlides1" title="Fun Tag Goes Here" src="Images/network-analysis.jpg" style="width:20%"><div style='width: 130px; text-align: center;'>I just love to visit this most beautiful place in all the world.</div><\a>
+   <p>Scale model of the
+    Eiffel tower in
+    Parc Mini-France
+     <img class="mySlides1" src="Images/statistics.jpg"  style="width:20%"> <p>Scale model of the
+    Eiffel tower in
+    Parc Mini-France
+   <img class="mySlides1" title="Fun Tag Goes Here" src="Images/network-analysis.jpg" style="width:20%"><p>Scale model of the
+    Eiffel tower in
+    Parc Mini-France
   </p>
 </div>
 <div class="w3-center">
