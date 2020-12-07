@@ -134,7 +134,13 @@ Relationship between disneys movies. Hello
   </tbody>
 </table>
 
-   
+   <div class="row">
+  <div class="column">
+    <img src="Images/sentiment-analysis.jpg" alt="Snow" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="Images/sentiment-analysis.jpg" alt="Forest" style="width:50%">
+  </div>
    
  <h2>Top 5 movies based on average user scores</h2>
 <table rules="groups">
