@@ -134,9 +134,9 @@ Relationship between disneys movies.
           
   
   
-<section class="color" id="sentiments">
+<section class="color" id="statistics">
  <div class="container">
-       <h1>Sentiemnt analysis</h1>
+       <h1>Statistics</h1>
  
     
 <section class="color" id="network">
@@ -145,11 +145,6 @@ Relationship between disneys movies.
             <div class="w3-container">
                  <h2>Slideshow Indicators</h2>
                      <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
-                   </div> 
-                   <style>
-                  .mySlides {display:none}
-                   </style>
-                   <body>
                     <div class="w3-content" style="max-width:800px">        
                         <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
                         <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
@@ -160,7 +155,7 @@ Relationship between disneys movies.
                       <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
                       <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
                     </div>
-                     </body>
+                     </div>
 
                     
  
