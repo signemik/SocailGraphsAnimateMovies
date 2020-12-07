@@ -126,8 +126,9 @@ text
 <section class="color" id="network">
     <div class="container">
         <h1>Network analysis </h1>
-      some text
+      some text <br>
       <img src="Images/Cirkel.PNG" height="600"> 
+      <br>
       some taxt
             <style>
 .mySlides {display:none}
@@ -135,8 +136,8 @@ text
 <body>
 
 <div class="w3-container">
-  <h2>Slideshow Indicators</h2>
-  <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
+  <h2>Word clouds for communities</h2>
+  <p>WordCloulds.</p>
 </div>
 
 
