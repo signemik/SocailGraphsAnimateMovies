@@ -127,6 +127,8 @@ text
     <div class="container">
         <h1>Network analysis </h1>
       some text
+      <img src="Images/Cirkel.png" height="100"> 
+      some taxt
             <style>
 .mySlides {display:none}
 </style>
@@ -140,9 +142,15 @@ text
 
 <div class="w3-content" style="max-width:800px">
   <p align="center">
-  <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
-  <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
-  <img class="mySlides" src="Images/sentiment-analysis.jpg" style="width:20%">
+  <img class="mySlides" src="Images/WikiC1.png" style="width:50%">
+  <img class="mySlides" src="Images/WikiC2.png" style="width:50%">
+  <img class="mySlides" src="Images/WikiC3.png" style="width:50%">
+  <img class="mySlides" src="Images/WikiC4.png" style="width:50%">
+  <img class="mySlides" src="Images/WikiC5.png" style="width:50%">
+  <img class="mySlides" src="Images/WikiC6.png" style="width:50%">
+  <img class="mySlides" src="Images/WikiC7.png" style="width:50%">
+  <img class="mySlides" src="Images/WikiC8.png" style="width:50%">
+  <img class="mySlides" src="Images/WikiC9.png" style="width:50%">
   </p>
 </div>
 <div class="w3-center">
@@ -153,6 +161,12 @@ text
  <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
   <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
   <button class="w3-button demo" onclick="currentDiv(3)">3</button>
+  <button class="w3-button demo" onclick="currentDiv(4)">3</button>
+  <button class="w3-button demo" onclick="currentDiv(5)">3</button>
+  <button class="w3-button demo" onclick="currentDiv(6)">3</button>
+  <button class="w3-button demo" onclick="currentDiv(7)">3</button>
+  <button class="w3-button demo" onclick="currentDiv(8)">3</button>
+  <button class="w3-button demo" onclick="currentDiv(9)">3</button>
 </div>
 
 <script>
