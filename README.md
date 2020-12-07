@@ -127,7 +127,7 @@ text
     <div class="container">
         <h1>Network analysis </h1>
       some text
-      <img src="Images/Cirkel.PNG" height="1000"> 
+      <img src="Images/Cirkel.PNG" height="500"> 
       some taxt
             <style>
 .mySlides {display:none}
