@@ -192,11 +192,8 @@ hello
 <div class="w3-content" style="max-width:800px">
   <p align="center">
   <img class="mySlides1" src="Images/statistics.jpg" style="width:20%">
-    <figcaption>Fig.1 -  Italy.</figcaption>
       <img class="mySlides1" src="Images/statistics.jpg"  style="width:20%">
-    <figcaption>Fig.2 - Trulli.</figcaption>
     <img class="mySlides1" title="Fun Tag Goes Here" src="Images/network-analysis.jpg" style="width:20%">
-    <figcaption>Fig.3 -  Puglia.</figcaption>
   </p>
 </div>
 <div class="w3-center">
@@ -223,12 +220,14 @@ function currentDiv1(n) {
 
 function showDivs1(n) {
   var i;
+  var texts=["Hello","No","Love"];
   var x = document.getElementsByClassName("mySlides1");
   var dots = document.getElementsByClassName("demo1");
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+    x[i].style.display = "none";
+    texts[i].print()
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" w3-blue", "");
@@ -314,7 +313,7 @@ function showDivs(n) {
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
-    texts[i].display
+    texts[i].print()
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" w3-blue", "");
