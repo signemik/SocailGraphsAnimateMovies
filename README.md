@@ -27,7 +27,6 @@
 <script src="js/parallaxImg.js" type="text/javascript"></script>
 <script src="js/parallaxImg.js"></script>
 <script src="js/quotes.js"></script>
-<script src="js/script.js"></script>
 <script src="js/select.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
