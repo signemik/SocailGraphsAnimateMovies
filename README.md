@@ -296,6 +296,74 @@ function showDivs(n) {
 }
 </script>
 
+ <style>
+.mySlides3 {display:none}
+</style>
+<body>
+
+<div class="w3-container">
+  <h2>Word clouds for communities</h2>
+  <p>Review Wordclouds.</p>
+</div>
+
+
+<div class="w3-content" style="max-width:800px">
+  <p align="center">
+  <img class="mySlides3" src="Images/Review1.PNG" style="width:50%">
+  <img class="mySlides3" src="Images/Review2.PNG" style="width:50%">
+  <img class="mySlides3" src="Images/Review3.PNG" style="width:50%">
+  <img class="mySlides3" src="Images/Review4.PNG" style="width:50%">
+  <img class="mySlides3" src="Images/Review5.PNG" style="width:50%">
+  <img class="mySlides3" src="Images/Review6.PNG" style="width:50%">
+  <img class="mySlides3" src="Images/Review7.PNG" style="width:50%">
+  <img class="mySlides3" src="Images/Review8.PNG" style="width:50%">
+  <img class="mySlides3" src="Images/Review9.PNG" style="width:50%">
+  </p>
+</div>
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs3(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs3(1)">Next ❯</button>
+  </div>
+ <button class="w3-button demo" onclick="currentDiv3(1)">1</button> 
+  <button class="w3-button demo" onclick="currentDiv3(2)">2</button> 
+  <button class="w3-button demo" onclick="currentDiv3(3)">3</button>
+  <button class="w3-button demo" onclick="currentDiv3(4)">4</button>
+  <button class="w3-button demo" onclick="currentDiv3(5)">5</button>
+  <button class="w3-button demo" onclick="currentDiv3(6)">6</button>
+  <button class="w3-button demo" onclick="currentDiv3(7)">7</button>
+  <button class="w3-button demo" onclick="currentDiv3(8)">8</button>
+  <button class="w3-button demo" onclick="currentDiv3(9)">9</button>
+</div>
+
+<script>
+ var slideIndex = 1;
+showDivs3(slideIndex);
+
+function plusDivs(n) {
+  showDivs3(slideIndex += n);
+}
+
+function currentDiv3(n) {
+  showDivs3(slideIndex = n);
+}
+
+function showDivs3(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides3");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-blue", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-blue";
+}
+</script>
 
 haha
                     
@@ -393,8 +461,8 @@ haha
     </tr>
   </tbody>
 </table>
- 
-  <img src="Images/CorrSenScore.PNG" height="300"> 
+ <p align="center">
+  <img src="Images/CorrSenScore.PNG" height="300"> <\p>
  
    <h2>Words used in the best and worst reviews</h2>
 <p>How to create side-by-side images with the CSS float property:</p>
