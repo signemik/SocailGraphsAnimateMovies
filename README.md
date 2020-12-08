@@ -543,8 +543,8 @@ The best movie is Abominable with a sentiment of 6.29 and the worst is Victory T
   <div class="column">
     <img src="Images/Bottom250.PNG" alt="Forest" style="width:100%">
   </div>
-
-<br><br>
+</div>
+<br>
 There is a clear difference in the two wordclouds. It is clear to see that the 250 best reviews are using more positive words than the 250 worst reviews. In the data cleaning process the letter <em>s</em> was removed from the end of the words (also on words where it is actually wrong like the word hilarious). Furthermore it is seen that some words are misspelled which was not taking into account, when data was cleaned. That is why the word 'hilarious' and 'hillarious' appears. 
 <br>
 The word <em>Shrek</em> in both wordclouds, it can be because <em>Shrek</em> has been giving both negative og positive reviews, but it can also be because words with a bad happiness average has been used in a positive way like <em>I really liked that they killed the bad person, he was very annoying and deserved a horrible death</em>, this would actually be kind of positive because it was something the person liked about the movie, but bacause there are so many words with low sentiment the overall sentiment would be bad. This is probaly the case with the word <em> Mufassa</em>, beacuse the Lion King has a good user score. 
