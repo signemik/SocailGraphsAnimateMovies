@@ -65,7 +65,7 @@ This website will take a closer look of animated movies from a broad selection o
 Movie reviews from people are often very honest and direct when they are reviewing a movie. So this is a good foundation for an interesting sentiment analysis and hopefully be very clear which movies are good and which are not. Furthermore it will be interesting to see if there is a connection between the movies either through the division of communities,through the production studio, year of release or budget.
 
 <h2>Data</h2>
-The data set is a excel file that has 222 rows and 7 columns. The attributes in the file are moviename, production studio, released yer, budget in million dollars, gross in million dollars, profit in percent and at last the Rotten Tomato moviename. The last attribute is used to get movie reviews from the website Rotten Tomato. The data in the other attributes originates from each movies Wikipedia page.<p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">Download data</a></p>The Jupyter notebook with details is<p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">Download notebook</a></p>
+The dataset is an Excel file that has 222 rows and 7 columns. The attributes in the file are moviename, production studio, released year, budget in million dollars, gross in million dollars, profit in percent and at last the Rotten Tomato moviename. The last attribute is used to get movie reviews from the website Rotten Tomato. The data in the other attributes originates from each movies Wikipedia page.<p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">Download data</a></p>Download explainer notebook for details in this project.<p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/ExplainerNotebook.ipynb">Download explainer notebook</a></p>
   
 
 
@@ -254,10 +254,10 @@ In each community with exception of community 7 there is a majority of movies fr
       <br>
       <ul>
   <li> Community 1: Some of the movies in this community are Despicable Me, Turbo, Toy Story, Finding Nemo.</li>
-   <li> Community 2: Some of the movies in this community Sherk, How to train your Dragon, Kung Fu Panda, Madagascar, Goosebumps.</li>
+   <li> Community 2: Some of the movies in this community Shrek, How to train your Dragon, Kung Fu Panda, Madagascar, Goosebumps.</li>
     <li> Community 3:  In this community there are a lot of iconic and popular disney movies such as The Lion King, Beauty and the Beast (1991) and Aladdin (1992), which are all realeased around at the same time. </li>
         <li> Community 4: This community only consists of movies from Sullivan Bluth Studios. </li>
-        <li> Community 5: This community mostly constits of the older Disney movies fx Dumbo, Bambi and Cinderella (1950). There are a few outliers such as Spider-Man Into the Spider-Verse and Pooh's Heffalump Movie which are Sony and Pixar productions. </li>
+        <li> Community 5: This community mostly consists of the older Disney movies e.g. Dumbo, Bambi and Cinderella (1950). There are a few outliers such as Spider-Man Into the Spider-Verse and Pooh's Heffalump Movie which are Sony and Pixar productions. </li>
         <li> Community 6: There is a mix of different productions studios, where the majority is Disney. Some of the movies in this community are Frozen, Wreck-It Ralph and The Grinch. </li>
         <li> Community 7: Again there are a mix of production studios almost equally divided in this community. Some of the movies in this community are The Lego Movie, The Boss Baby, Hotel Transylvania and Gnomeo & Juliet. </li>
         <li> Community 8: In this community the majority are Blue Sky production movies. Some of the movies in this community are Ice Age, Trolls and The Smurfs. </li>
@@ -277,6 +277,7 @@ Below is the wordclouds for each community visualised. From the wordcloulds can 
 
 <div class="w3-container">
   <h3>Wordclouds for communities based on Wikipedia pages</h3>
+
 </div>
 
 
@@ -338,17 +339,17 @@ function showDivs(n) {
 }
 </script>
 <br>
-At first sight the nine wordclouds look like each other. They all for example have the words <em>film, release, first, animate </em> and <em>new</em>. After furthere interestion, it is actually possible to seperate them from each other. <br> <br>
+At first sight the nine wordclouds look like each other. They all for example have the words <em>film, release, first, animate </em> and <em>new</em>. After further investigation, it is actually possible to seperate them from each other. <br> <br>
 <ul>
   <li> Community 1: It has words as <em>disney, pixar, toy</em> and <em>story</em>, so it is actually possible from the wordcloud to see that this community has many pixar movies among Toy Story movies. </li>
    <li> Community 2: It is seen words such as <em>shrek, dreamworks, madagascar</em> and <em>panda</em>. </li>
      <li> Community 3: In community 3 words such as <em>disney, lion, king, song</em> and <em>aladdin</em> appears. </li>
        <li> Community 4: In community 4 words such as <em>thumbelina, pebble</em> and <em>bluth</em> appears which again are movies in the community and the production studio.</li> 
-         <li>Community 5: Here words such as <em>disney, bambi, million</em> and <em>wal</em>'. It is not that easy to see which movies that are in community 5 besides that they are Disney movies. </li>
+         <li>Community 5: Here words such as <em>disney, bambi, million</em> and <em>walt</em>. It is not that easy to see which movies that are in community 5 besides that they are Disney movies. </li>
        <li>Community 6: In community 6 words such as <em>disney, frozen, million</em> and <em>movie</em>. Again it is not that easy to tell which movies besides from Frozen that are in community 6. </li>
        <li> Community 7: Some words in community 7 are <em>lego, batman</em> and <em>transylvania</em> appears, which are very definite for community 7. </li>
         <li> Community 8: In community 8 the words <em>smurf, gargamel, horton</em> and <em>scoob</em> appears. These words are also very definite for community 8. </li>
-        <li> Community 9: In the last community 9 words such as <em>tinker, bell, disney, fairy</em> and <em>pirate</em>. As in the two last communities these words are also very definitive for community 9 since it only consists of Tinker bell movies. 
+        <li> Community 9: In the last community 9 words such as <em>tinker, bell, disney, fairy</em> and <em>pirate</em>. As in the two last communities these words are also very definitive for community 9 since it only consists of Tinker Bell movies. 
 
 <br> <br>
 Below wordclouds, where the text data is user reviews for eah community, are visualised.
@@ -421,7 +422,7 @@ function showDivs3(n) {
 }
 </script>
 <br>
-In these wordcloud it is see words such as <em>movie, love, great, good</em> and <em>really</em> in all communities though in different sizes. For example the movies must be more funny in community 2 than in community 1, since the word <em>funny</em> appears bigger in community 2 than in 1. Overall the wordclouds are very positive, so in general the reviews uses positive words. It is still see that the majority of the movies in community 1 are Pixar movies and in community 3, 5 and 6 the majority are Disney movies. In community 9 it is also very clear that Tinker bell movies are in this community.  
+In these wordcloud words such as <em>movie, love, great, good</em> and <em>really</em> are in all communities though in different sizes. For example the movies must be more funny in community 2 than in community 1, since the word <em>funny</em> appears bigger in community 2 than in 1. Overall the wordclouds are very positive, so in general the reviews uses positive words. It is still seen that the majority of the movies in community 1 are Pixar movies and in community 3, 5 and 6 the majority are Disney movies. In community 9 it is also very clear that Tinker Bell movies are in this community.  
 <br>                    
  
 <section class="color" id="sentiments">
@@ -438,10 +439,10 @@ In these wordcloud it is see words such as <em>movie, love, great, good</em> and
     <img src="Images/HistAvgSent.PNG" alt="Forest" style="width:100%">
   </div>
   </div>
-  The distribution of sentiment seems to be normal distributed around 6 which is neutral. The range of sentiment is where, 1 is sad and 9 is happy. Additionally,
-  the sentiment of movies also seems to follow a normal distribution around 6. The average sentiment of the movies indicates that all the good and bad reviews balance each other out. However we are still interested in finding the movies with the highest and the lowest sentiment.
+  The distribution of sentiment seems to be normal distributed around 6 which is neutral. The range of sentiment is from 1 to 9, where 1 is sad and 9 is happy. Additionally,
+  the sentiment of movies also seem to follow a normal distribution around 6. The average sentiment of the movies indicates that all the good and bad reviews balance each other out. However it is still interesting to find the movies with the highest and the lowest sentiment.
   
-  <h3>Top 5 movies based on average sentiment</h3>
+  <h3>Best 5 movies based on average sentiment</h3>
 <table rules="groups">
   <thead>
     <tr>
@@ -529,7 +530,7 @@ In these wordcloud it is see words such as <em>movie, love, great, good</em> and
   </tbody>
 </table>
 <br>
-The best movie is Abominable with a sentiment of 6.29 and the worst is Victory Through Air Power with a sentiment of 5.59.  There is a small tendency when the sentiment are high the average user score are high as well. This is visualised below to see if the trend are visible.
+The best movie is Abominable with a sentiment of 6.29 and the worst is Victory Through Air Power with a sentiment of 5.59.  There is a small tendency when the sentiment are high the average user score are high as well. This is visualised below to see if the trend is visible.
 
  <p align="center">
   <img src="Images/CorrSenScore.PNG" height="300"> </p>
@@ -548,14 +549,14 @@ The best movie is Abominable with a sentiment of 6.29 and the worst is Victory T
 <br>
 There is a clear difference in the two wordclouds. It is clear to see that the 250 best reviews are using more positive words than the 250 worst reviews. In the data cleaning process the letter <em>s</em> was removed from the end of the words (also on words where it is actually wrong like the word hilarious). Furthermore it is seen that some words are misspelled which was not taking into account, when data was cleaned. That is why the word 'hilarious' and 'hillarious' appears. 
 <br>
-The word <em>Shrek</em> in both wordclouds, it can be because <em>Shrek</em> has been giving both negative og positive reviews, but it can also be because words with a bad happiness average has been used in a positive way like <em>I really liked that they killed the bad person, he was very annoying and deserved a horrible death</em>, this would actually be kind of positive because it was something the person liked about the movie, but bacause there are so many words with low sentiment the overall sentiment would be bad. This is probaly the case with the word <em> Mufassa</em>, beacuse the Lion King has a good user score. 
+The word <em>Shrek</em> appears in both wordclouds, it can be because <em>Shrek</em> has been giving both negative og positive reviews, but it can also be because words with a bad happiness average has been used in a positive way. For example <em>"I really liked that they killed the bad person, he was very annoying and deserved a horrible death"</em>, this would actually be kind of positive because it was something the person liked about the movie, but because there are so many words with low sentiment the overall sentiment would be bad. This is probaly the case with the word <em> Mufasa</em>, beacuse the Lion King has a good user score. 
 <br>
 The wordcloud of 250 best reviews are using words such as <em>love, fabolous, hilarious, fluffy, minion</em> and <em>laugther</em> where the wordcloud of 250 worst reviews are using words such as <em>worst, depressing, die, poor</em> and <em>hate</em>. 
 
-Below can the three best and worst reviews be seen based on there sentiment.
+Below can the three best and worst reviews be seen based on their sentiment.
   
 <div class="w3-container">
-  <h3>Top 3 reviews</h3>
+  <h3>Best 3 reviews</h3>
   
 </div>
 
@@ -659,7 +660,7 @@ function showDivs2(n) {
 }
 </script>
 <br>
-The three worst reviews is all about death. However, the second review is a false negative, because the user loved The Incredibles so much that the user wacth the movie many times.  
+The three worst reviews is all about death. However, the second review is a false negative, because the user loved The Incredibles so much that the user watched the movie many times.  
 
 
 
