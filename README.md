@@ -124,6 +124,9 @@ Relationship between disneys movies.
   </tbody>
 </table>
 
+ <p align="center">
+  <img src="Images/YearStat.PNG" height="400">
+
    <div class="row">
   <div class="column">
     <img src="Images/sentiment-analysis.jpg" alt="Snow" style="width:50%">
