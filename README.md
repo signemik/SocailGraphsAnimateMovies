@@ -242,7 +242,7 @@ text
       <img src="Images/GraphCom.PNG" height="600"> 
       <br>
 
-            <style>
+<style>
 .mySlides {display:none}
 </style>
 <body>
@@ -340,15 +340,15 @@ function showDivs(n) {
     <button class="w3-button w3-light-grey" onclick="plusDivs3(-1)">❮ Prev</button>
     <button class="w3-button w3-light-grey" onclick="plusDivs3(1)">Next ❯</button>
   </div>
- <button class="w3-button demo" onclick="currentDiv3(1)">1</button> 
-  <button class="w3-button demo" onclick="currentDiv3(2)">2</button> 
-  <button class="w3-button demo" onclick="currentDiv3(3)">3</button>
-  <button class="w3-button demo" onclick="currentDiv3(4)">4</button>
-  <button class="w3-button demo" onclick="currentDiv3(5)">5</button>
-  <button class="w3-button demo" onclick="currentDiv3(6)">6</button>
-  <button class="w3-button demo" onclick="currentDiv3(7)">7</button>
-  <button class="w3-button demo" onclick="currentDiv3(8)">8</button>
-  <button class="w3-button demo" onclick="currentDiv3(9)">9</button>
+ <button class="w3-button demo3" onclick="currentDiv3(1)">1</button> 
+  <button class="w3-button demo3" onclick="currentDiv3(2)">2</button> 
+  <button class="w3-button demo3" onclick="currentDiv3(3)">3</button>
+  <button class="w3-button demo3" onclick="currentDiv3(4)">4</button>
+  <button class="w3-button demo3" onclick="currentDiv3(5)">5</button>
+  <button class="w3-button demo3" onclick="currentDiv3(6)">6</button>
+  <button class="w3-button demo3" onclick="currentDiv3(7)">7</button>
+  <button class="w3-button demo3" onclick="currentDiv3(8)">8</button>
+  <button class="w3-button demo3" onclick="currentDiv3(9)">9</button>
 </div>
 
 <script>
@@ -366,7 +366,7 @@ function currentDiv3(n) {
 function showDivs3(n) {
   var i;
   var x = document.getElementsByClassName("mySlides3");
-  var dots = document.getElementsByClassName("demo");
+  var dots = document.getElementsByClassName("demo3");
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
