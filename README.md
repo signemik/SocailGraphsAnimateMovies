@@ -394,7 +394,7 @@ haha
   </tbody>
 </table>
  
- 
+  <img src="Images/CorrSenScore.PNG" height="300"> 
  
    <h2>Words used in the best and worst reviews</h2>
 <p>How to create side-by-side images with the CSS float property:</p>
