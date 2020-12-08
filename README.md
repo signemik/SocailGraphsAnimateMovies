@@ -315,6 +315,111 @@ haha
  <div class="container">
        <h1>Sentiemnt analysis</h1>
  wuhuu    
+<div class="w3-container">
+  <h2>Top 3 reviews</h2>
+  <p>WordCloulds.</p>
+</div>
+
+
+<div class="w3-content" style="max-width:800px">
+  <p align="center">
+  <img class="mySlides1" src="Images/Top1.PNG" style="width:50%">
+  <img class="mySlides1" src="Images/Top2.PNG" style="width:50%">
+  <img class="mySlides1" src="Images/Top3.PNG" style="width:50%">
+  </p>
+</div>
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+ <button class="w3-button demo" onclick="currentDiv1(1)">1</button> 
+  <button class="w3-button demo" onclick="currentDiv1(2)">2</button> 
+  <button class="w3-button demo" onclick="currentDiv1(3)">3</button>
+</div>
+
+<script>
+ var slideIndex = 1;
+showDivs1(slideIndex);
+
+function plusDivs(n) {
+  showDivs1(slideIndex += n);
+}
+
+function currentDiv1(n) {
+  showDivs1(slideIndex = n);
+}
+
+function showDivs1(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-blue", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-blue";
+}
+</script>
+</body>
+
+<div class="w3-container">
+  <h2>Worst 3 reviews</h2>
+  <p>WordCloulds.</p>
+</div>
+
+
+<div class="w3-content" style="max-width:800px">
+  <p align="center">
+  <img class="mySlides2" src="Images/Bottom1.PNG" style="width:50%">
+  <img class="mySlides2" src="Images/Bottom2.PNG" style="width:50%">
+  <img class="mySlides2" src="Images/Bottom3.PNG" style="width:50%">
+  </p>
+</div>
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+ <button class="w3-button demo" onclick="currentDiv2(1)">1</button> 
+  <button class="w3-button demo" onclick="currentDiv2(2)">2</button> 
+  <button class="w3-button demo" onclick="currentDiv2(3)">3</button>
+</div>
+
+<script>
+ var slideIndex = 1;
+showDivs2(slideIndex);
+
+function plusDivs(n) {
+  showDivs2(slideIndex += n);
+}
+
+function currentDiv1(n) {
+  showDivs2(slideIndex = n);
+}
+
+function showDivs2(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-blue", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-blue";
+}
+</script>
+</body>
 
 
 
