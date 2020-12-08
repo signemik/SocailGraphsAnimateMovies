@@ -135,7 +135,7 @@ Relationship between disneys movies.
     <img src="Images/HistAvgScore.PNG" alt="Forest" style="width:100%">
   </div>
    <br>
- <br><h3>Top 5 best movies based on average user score</h3>
+ <br><h3 style="text-align:left">Top 5 best movies based on average user score</h3>
 <table rules="groups">
   <thead>
     <tr>
