@@ -134,6 +134,7 @@ Relationship between disneys movies.
   <div class="column">
     <img src="Images/HistAvgScore.PNG" alt="Forest" style="width:100%">
   </div>
+  <\div>
   
   
   
