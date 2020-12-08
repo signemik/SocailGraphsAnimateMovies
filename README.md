@@ -266,9 +266,9 @@ In each community with exception of community 7 there is a majority of movies fr
       
       
       
-      <br> A new graph is shown below where the nodes are colored by communities and its nodesize is based on production studio. The smallest node size is Disney and then it is Pixar, Warner Bros., Illumination, DreamWorks, Blue Sky, Sony Animation so the biggest nodesize is Sullivan.
+<br> A new graph is shown below where the nodes are colored by communities and its nodesize is based on production studio. The smallest node size is Disney and then it is Pixar, Warner Bros., Illumination, DreamWorks, Blue Sky, Sony Animation so the biggest nodesize is Sullivan. <br>
       
-      <img src="Images/GraphCom.PNG" height="600"> 
+ <img src="Images/GraphCom.PNG" height="600"> 
       
 
 Below is the wordclouds for each community visualised. From the wordcloulds can it be seen which words are most important for each community based on the movies text from Wikipedia.
@@ -351,7 +351,7 @@ At first sight the nine wordclouds look like each other. They all for example ha
        <li>Community 6: In community 6 words such as <em>disney, frozen, million</em> and <em>movie</em>. Again it is not that easy to tell which movies besides from Frozen that are in community 6. </li>
        <li> Community 7: Some words in community 7 are <em>lego, batman</em> and <em>transylvania</em> appears, which are very definite for community 7. </li>
         <li> Community 8: In community 8 the words <em>smurf, gargamel, horton</em> and <em>scoob</em> appears. These words are also very definite for community 8. </li>
-        <li> Community 9: In the last community 9 words such as <em>tinker, bell, disney, fairy</em> and <em>pirate</em>. As in the two last communities these words are also very definitive for community 9 since it only consists of Tinkerbell movies. 
+        <li> Community 9: In the last community 9 words such as <em>tinker, bell, disney, fairy</em> and <em>pirate</em>. As in the two last communities these words are also very definitive for community 9 since it only consists of Tinker bell movies. 
 
 <br> <br>
 Below wordclouds, where the text data is user reviews for eah community, are visualised.
@@ -363,7 +363,6 @@ Below wordclouds, where the text data is user reviews for eah community, are vis
 
 <div class="w3-container">
   <h2>Word clouds for communities</h2>
-  <p>Review Wordclouds.</p>
 </div>
 
 
@@ -424,9 +423,9 @@ function showDivs3(n) {
   dots[slideIndex-1].className += " w3-blue";
 }
 </script>
-
-haha
-                    
+<br>
+In these wordcloud it is see words such as <em>movie, love, great, good</em> and <em>really</em> in all communities though in different sizes. For example the movies must be more funny in community 2 than in community 1, since the word <em>funny</em> appears bigger in community 2 than in 1. Overall the wordclouds are very positive, so in general the reviews uses positive words. It is still see that the majority of the movies in community 1 are Pixar movies and in community 3, 5 and 6 the majority are Disney movies. In community 9 it is also very clear that Tinker bell movies are in this community.  
+<br>                    
  
 <section class="color" id="sentiments">
  <div class="container">
