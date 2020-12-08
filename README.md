@@ -340,7 +340,7 @@ function showDivs(n) {
  var slideIndex = 1;
 showDivs3(slideIndex);
 
-function plusDivs(n) {
+function plusDivs3(n) {
   showDivs3(slideIndex += n);
 }
 
@@ -462,7 +462,7 @@ haha
   </tbody>
 </table>
  <p align="center">
-  <img src="Images/CorrSenScore.PNG" height="300"> <\p>
+  <img src="Images/CorrSenScore.PNG" height="300">
  
    <h2>Words used in the best and worst reviews</h2>
 <p>How to create side-by-side images with the CSS float property:</p>
