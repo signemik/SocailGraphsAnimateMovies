@@ -305,7 +305,6 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-blue";
 }
 </script>
-</body>
 
 
 haha
@@ -366,7 +365,7 @@ function showDivs1(n) {
   dots[slideIndex-1].className += " w3-blue";
 }
 </script>
-</body>
+
 
 <div class="w3-container">
   <h2>Worst 3 reviews</h2>
@@ -419,7 +418,7 @@ function showDivs2(n) {
   dots[slideIndex-1].className += " w3-blue";
 }
 </script>
-</body>
+
 
 
 
