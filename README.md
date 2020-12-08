@@ -62,9 +62,9 @@
 This website will take a closer look of animated movies from a broad selection of productions studios. So if you like animated movies and love watching movies ranging from the good old disney movie "Beauty and the Beast" to the new and modern pixar movie "Onward" this is the webstie for you. Animated movies are often filled with hidden messages and they all have a deeper meaning, that is one of the thing that make animated movies amazing to watch.  
 <br>
 <br>
-Movie reviews from people are often very honest and direct when they are reviewing a movie. So this is a good foundation for an interesting sentiment analysis and hopefully be very clear which movies are good and which are not. The movie reviewes are obtain from Rotten Tomatos. Furthermore it will be interesting to see if there is a connection between the movies either through the division of communities or through the production studio, year of release or budget.
+Movie reviews from people are often very honest and direct when they are reviewing a movie. So this is a good foundation for an interesting sentiment analysis and hopefully be very clear which movies are good and which are not. The movie reviews are obtained from Rotten Tomatos. Furthermore it will be interesting to see if there is a connection between the movies either through the division of communities,through the production studio, year of release or budget.
 
-The dataset these results are obtained by originals from the movies Wikipedia page. <p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">View Data</a> 
+The dataset these results are obtained by originates from each movies Wikipedia page. <p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">View Data</a> 
   
 The Jupyter Notebook with the codes can be viewed???
 
@@ -85,7 +85,7 @@ The Jupyter Notebook with the codes can be viewed???
  <div class="container">
        <h1>Statistics</h1>
    Below is the most interesting insights from the data set shown <br> 
-   Fristly is the distribution of number of movies in the different production studios shown in the table below.
+   Firstly is the distribution of number of movies in the different production studios shown in the table below.
    <table rules="groups">
   <thead>
     <tr>
@@ -133,7 +133,7 @@ The majority of the movies in our dataset is Disney productions, next is DreamWo
  <p align="center">
   <img src="Images/YearStat.PNG" style="width:100%">
 </p>
-There is an increase in bugdet and gross for movies. However the profit in percent is decreasing this could do to the increase in bugdet and gross. Furthermore, the movies from 1940's has been reissue many times in the cinemas because at that time people did not have VHS so they could not buy the movies. This is propably why the profit in percent is high for movies made in 1940's. Next a closer look at the distributions for user score from Rotton Tomatos is taken.
+There is an increase in bugdet and gross for movies. However the profit in percent is decreasing this could do to the increase in bugdet and gross. Furthermore, the movies from 1940's has been reissue many times in the cinemas because at that time people did not have VHS or DVD so they could not buy the movies. This is propably why the profit in percent is high for movies made in 1940's. Next a closer look at the distributions for user score of the reviews from Rotten Tomatos. 
 
 <h2>User score</h2>
    <div class="row">
@@ -147,7 +147,7 @@ There is an increase in bugdet and gross for movies. However the profit in perce
   General we see that the reviewers are giving good scores to the movies from the distribution of user score. Only a few reviews has a score lower than 3.
   The distribution of the average user score follows a normal distribution where most movies have an user score about 3.6 to 3.7. In the table below the five best and worst movies based on average user score can be found.
   
-<h3 style="text-align:left">Top 5 best movies based on average user score</h3>
+<h3 style="text-align:left">Top 5 best movies based on average user scores</h3>
 <table rules="groups">
   <thead>
     <tr>
@@ -185,7 +185,7 @@ There is an increase in bugdet and gross for movies. However the profit in perce
   </tbody>
 </table>
 
-<h3>Worst 5 movies based on average user scores</h3>
+<h3>Bottom 5 worst movies based on average user scores</h3>
 <table rules="groups">
   <thead>
     <tr>
@@ -227,7 +227,7 @@ There is an increase in bugdet and gross for movies. However the profit in perce
   <img src="Images/ProductionAvgScore.PNG" style="width:75%">
   </p>
   <!--<h2>Plots</h2>-->
-It is clearly seen that Pixar has the best average user score, but overall the user score for the production studios is almost the same. All of them has good movies and bad movies. <!--but what are the best movies and the worst movies? This we will find below. MÅSKE TILFØJE ET LINK TIL SENTIMENT-->
+It is clearly seen that Pixar has the best average user score, but overall the user score for the production studios is almost the same. All of them has good movies and bad movies that balanced that user score.
 
     
     
@@ -236,32 +236,39 @@ It is clearly seen that Pixar has the best average user score, but overall the u
 <section class="color" id="network">
     <div class="container">
         <h1>Network analysis </h1>
-      Below is the graph plotted.
+      Below is the graph visualised.
       <img src="Images/GraphNodeProduction.PNG" height="600">
       <br>
-      The size of the nodes is decided by the nodes degree. There is a Disney, Pixar, DreamWorks and Sullivan cluster in the network. It is clear that Disney, Pixar and DreamWorks movies are the ones with the largest degree such as The Lion King, Frozen, Toy Story 3, Toy Story and Sherk. Below is the degree distribution plotted. 
+      The size of the nodes are based on node degree. There is a clear Disney, Pixar, DreamWorks and Sullivan cluster in the network. It is clear that Disney, Pixar and DreamWorks movies are the ones with the largest degree such as movies The Lion King, Frozen, Toy Story 3, Toy Story and Shrek. Below is the degree distribution visualised. 
       <p align="center">
       <img src="Images/DegreeDist.PNG" height="300">
         </p>
       Both in and out degree seems to follow a power law since many nodes have a low degree and a few nodes has a high degree. Accordingly, the network is scale-free.
       <br>
       <h2>Communities</h2>
-      The network is diveded into communties by used of the Louvain algorithm. The pie charts below show the division between movies from the different production studios in each community.
+      The network is diveded into communties by use of the Louvain algorithm. The pie charts below show the division between movies from the different production studios in each community.
       <img src="Images/Cirkel.PNG" height="600"> 
       <br>
-In each community with exception of community 7 there is a majority of movies from one production studio. In community 1 is it Pixar, community 2 is it DreamWorks, community 3 and 6 is it Disney, community 4 only consists of Sullivan movies, community 5 almost only consists of Disney movies, community 8 is it Blue Sky and community 9 is it Warner Bros. Community 7 is a mix Warner Bros, Disney, Sony and DreamWorks. With further invensigation the following conclusion can be made by each community.
+In each community with exception of community 7 there is a majority of movies from one production studio. In community 1 is it Pixar, community 2 is it DreamWorks, community 3 and 6 is it Disney, community 4 only consists of Sullivan movies, community 5 almost only consists of Disney movies, community 8 is it Blue Sky and community 9 is it Warner Bros. Community 7 is a mix of Warner Bros, Disney, Sony and DreamWorks. With further investigation the following conclusion can be made by each community.
       <ul>
-  <li> Community 1: 
-with additional text</li>
+  <li> Community 1: Some of the movies in this community are Despicable Me, Turbo, Toy Story, Finding Nemo</li>
+   <li> Community 2: Some of the movies in this community Sherk, How to train your Dragon, Kung Fu Panda, Madagascar, Goosebumps</li>
+    <li> Community 3:  In this community there are a lot of iconic and popular disney movies such as The Lion King, Beauty and the Beast (1991) and Aladdin (1992), which are all realeased around at the same time. </li>
+        <li> Community 4: This community only consists of movies from Sullivan Bluth Studios. </li>
+        <li> Community 5: This community mostly constits of the older Disney movies fx Dumbo, Bambi and Cinderella (1950). There are a few outliers such as Spider-Man Into the Spider-Verse and Pooh's Heffalump Movie which are Sony and Pixar productions. </li>
+        <li> Community 6: There is a mix of different productions studios, where the majority is Disney. Some of the movies in this community are Frozen, Wreck-It Ralph and The Grinch (film). </li>
+        <li> Community 7: Again there are a mix of production studios almost equally divided in this community. Some of the movies in this community are The Lego Movie, The Boss Baby, Hotel Transylvania and Gnomeo & Juliet. </li>
+        <li> Community 8: In this community the majority are Blue Sky production movies. Some of the movies in this community are Ice Age, Trolls and The Smurfs. </li>
+        <li> Community 9: This community is all about Tinker Bell and her five movies. These movies almost only link to each other and that is why they have their own community. </li>
 </ul>
       
       
       
       
-      <br> A new graph is shown below where the nodes are colored by communities and its size is depend on production studio. The smallest node size is Disney and then it is Pixar, Warner Bros., Illumination, DreamWorks, Blue Sky, Sony Animation so the biggest nodesize is Sullivan.
-      Communities graph<br>
+      <br> A new graph is shown below where the nodes are colored by communities and its nodesize is based on production studio. The smallest node size is Disney and then it is Pixar, Warner Bros., Illumination, DreamWorks, Blue Sky, Sony Animation so the biggest nodesize is Sullivan.
+      
       <img src="Images/GraphCom.PNG" height="600"> 
-      <br>
+      
 
 
 <style>
