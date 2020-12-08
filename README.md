@@ -261,12 +261,9 @@ In each community with exception of community 7 there is a majority of movies fr
         <li> Community 7: Again there are a mix of production studios almost equally divided in this community. Some of the movies in this community are The Lego Movie, The Boss Baby, Hotel Transylvania and Gnomeo & Juliet. </li>
         <li> Community 8: In this community the majority are Blue Sky production movies. Some of the movies in this community are Ice Age, Trolls and The Smurfs. </li>
         <li> Community 9: This community is all about Tinker Bell and her five movies. These movies almost only link to each other and that is why they have their own community. </li>
-</ul>
+      </ul>
       
-      
-      
-      
-<br> A new graph is shown below where the nodes are colored by communities and its nodesize is based on production studio. The smallest node size is Disney and then it is Pixar, Warner Bros., Illumination, DreamWorks, Blue Sky, Sony Animation so the biggest nodesize is Sullivan. <br>
+A new graph is shown below where the nodes are colored by communities and its nodesize is based on production studio. The smallest node size is Disney and then it is Pixar, Warner Bros., Illumination, DreamWorks, Blue Sky, Sony Animation so the biggest nodesize is Sullivan. <br>
       
  <img src="Images/GraphCom.PNG" height="600"> 
       
@@ -278,8 +275,7 @@ Below is the wordclouds for each community visualised. From the wordcloulds can 
 <body>
 
 <div class="w3-container">
-  <h2>Word clouds for communities</h2>
-  <p>WordCloulds.</p>
+  <h2>Wordclouds for communities based on Wikipedia pages</h2>
 </div>
 
 
@@ -362,7 +358,7 @@ Below wordclouds, where the text data is user reviews for eah community, are vis
 <body>
 
 <div class="w3-container">
-  <h2>Word clouds for communities</h2>
+  <h2>Wordclouds for communities based on user reviews</h2>
 </div>
 
 
@@ -429,11 +425,9 @@ In these wordcloud it is see words such as <em>movie, love, great, good</em> and
  
 <section class="color" id="sentiments">
  <div class="container">
-       <h1>Sentiemnt analysis</h1>
+       <h1>Sentiment analysis</h1>
+   In the sentiment analysis the emotion of the reviews are analyzed. To begin with the distribution of sentiment for the user reviews is shown. 
    <h2>User score</h2>
-   
-   
- wuhuu
 
    <div class="row">
   <div class="column">
@@ -443,13 +437,15 @@ In these wordcloud it is see words such as <em>movie, love, great, good</em> and
     <img src="Images/HistAvgSent.PNG" alt="Forest" style="width:100%">
   </div>
   </div>
-   Helloooo
-  <h2>Top 5 movies based on average sentiment scores</h2>
+  The distribution of sentiment seems to be normal distributed around 6 which is neutral. The range of sentiment is where, 1 is sad and 9 is happy. Additionally,
+  the sentiment of movies also seems to follow a normal distribution around 6. The average sentiment of the movies indicates that all the good and bad reviews balance each other out. However we are still interested in finding the movies with the highest and the lowest sentiment.
+  
+  <h2>Top 5 movies based on average sentiment</h2>
 <table rules="groups">
   <thead>
     <tr>
       <th style="text-align: center">Movie</th>
-      <th style="text-align: center">Average Sentiment Score</th>
+      <th style="text-align: center">Average Sentiment</th>
       <th style="text-align: center">Average User Score</th>
       <th style="text-align: center">Production studio</th>
     </tr>
@@ -488,12 +484,12 @@ In these wordcloud it is see words such as <em>movie, love, great, good</em> and
   </tbody>
 </table>
 
- <h2>Worst 5 movies based on average sentiment scores</h2>
+ <h2>Worst 5 movies based on average sentiment</h2>
 <table rules="groups">
   <thead>
     <tr>
       <th style="text-align: center">Movie</th>
-      <th style="text-align: center">Average Sentiment Score</th>
+      <th style="text-align: center">Average Sentiment</th>
       <th style="text-align: center">Average User Score</th>
       <th style="text-align: center">Production studio</th>
     </tr>
@@ -531,9 +527,13 @@ In these wordcloud it is see words such as <em>movie, love, great, good</em> and
     </tr>
   </tbody>
 </table>
+<br>
+The best movie are 'Abominable' with a sentiment of 6.29 and the worst is 'Victory Through Air Power' with a sentiment of 5.59.  There is a small tendency when the sentiment are high the average user score are high as well. This is visualised below to see if the trend are visible.
+
  <p align="center">
-  <img src="Images/CorrSenScore.PNG" height="300">
- 
+  <img src="Images/CorrSenScore.PNG" height="300"> </p>
+  
+ There is a clear trend in the sentiment vs. average user score, however which words are more used in the reviews with low sentiment and high sentiment? This is shown below using wordclouds.
    <h2>Words used in the best and worst reviews</h2>
 <p>How to create side-by-side images with the CSS float property:</p>
 
@@ -544,10 +544,14 @@ In these wordcloud it is see words such as <em>movie, love, great, good</em> and
   <div class="column">
     <img src="Images/Bottom250.PNG" alt="Forest" style="width:100%">
   </div>
- 
+
+THere is a clear difference in the two wordclouds. It is clear to see that the 250 best reviews are using more positive words than the 250 worst reviews. In the data cleaning process the letter <em>s</em> was removed from the end of the words (also on words where it is actually wrong like the word hilarious). Furthermore it is seen that some words are misspelled which was not taking into account, when data was cleaned. That is why the word 'hilarious' and 'hillarious' appears. The word <em>Shrek</em> in both wordclouds, it can be because <em>Shrek</em> has been giving both negative og positive reviews, but it can also be because words with a bad happiness average has been used in a positive way like <em>I really liked that they killed the bad person, he was very annoying and deserved a horrible death</em>, this would actually be kind of positive because it was something the person liked about the movie, but bacause there are so many words with low sentiment the overall sentiment would be bad. This is probaly the case with the word <em> Mufassa</em>, beacuse the Lion King has a good user score. The wordcloud of 250 best reviews are using words such as <em>love, fabolous, hilarious, fluffy, minion</em> and <em>laugther</em> where the wordcloud of 250 worst reviews are using words such as <em>worst, depressing, die, poor</em> and <em>hate</em>. 
+
+Below can the three best and worst reviews be seen based on there sentiment.
+  
 <div class="w3-container">
   <h2>Top 3 reviews</h2>
-  <p>WordCloulds.</p>
+  
 </div>
 
 
@@ -597,7 +601,8 @@ function showDivs1(n) {
 }
 </script>
 
-
+<br>
+In the three best reviews the word <em>laugther</em> is present, which is the word with highest sentiment value. Therefor it make sense that the word appear in all three reviews.
 <div class="w3-container">
   <h2>Worst 3 reviews</h2>
   <p>WordCloulds.</p>
@@ -649,7 +654,8 @@ function showDivs2(n) {
   dots[slideIndex-1].className += " w3-blue";
 }
 </script>
-
+<br>
+The three worst reviews is all about death. However, the second review is a false negative, because the user loved The Incredibles so much that the user wacth the movie many times.  
 
 
 
@@ -698,4 +704,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 <!--
 ### Support or Contact
 <!--
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.-->
