@@ -61,9 +61,12 @@
 
 This website will take a closer look of animated movies from a broad selection of productions studios. So if you like animated movies and love watching movies ranging from the good old disney movie "Beauty and the Beast" to the new and modern pixar movie "Onward" this is the webstie for you. Animated movies are often filled with hidden messages and they all have a deeper meaning, that is one of the thing that make animated movies amazing to watch.  
 <br>
+<br>
 Movie reviews from people are often very honest and direct when they are reviewing a movie. So this is a good foundation for an interesting sentiment analysis and hopefully be very clear which movies are good and which are not. The movie reviewes are obtain from Rotten Tomatos. Furthermore it will be interesting to see if there is a connection between the movies either through the division of communities or through the production studio, year of release or budget.
 
-The dataset these results are obtained by originals from the movies Wikipedia page. <p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">View Data</a> The Jupyter Notebook with the codes can be viewed???
+The dataset these results are obtained by originals from the movies Wikipedia page. <p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">View Data</a> 
+  
+The Jupyter Notebook with the codes can be viewed???
 
 
 <h1 id="contenttitle">Contents</h1>
@@ -81,8 +84,8 @@ The dataset these results are obtained by originals from the movies Wikipedia pa
 <section class="color" id="statistics">
  <div class="container">
        <h1>Statistics</h1>
-   
-   Below can the distribution of number of movies in the different production studios be seen.
+   Below is the most interesting insights from the data set shown <br> 
+   Fristly is the distribution of number of movies in the different production studios shown in the table below.
    <table rules="groups">
   <thead>
     <tr>
@@ -125,9 +128,12 @@ The dataset these results are obtained by originals from the movies Wikipedia pa
     </tr>
   </tbody>
 </table>
-
+The majority of the movies in our dataset is Disney productions, next is DreamWorks and then Pixar. Next the different attribute is plotted agianst the realse year.
  <p align="center">
   <img src="Images/YearStat.PNG" style="width:100%">
+
+There is an increase in bugdet and gross for movies. However the profit in percent is decreasing this could do to the increase in bugdet and gross. Furthermore, the movies from 1940's has been reissue many times in the cinemas because at that time people did not have VHS so they could not buy the movies. This is propably why the profit in percent is high for movies made in 1940's. Next a closer look at the distributions for user score from Rotton Tomatos is taken.
+
 <h2>User score</h2>
    <div class="row">
   <div class="column">
@@ -137,10 +143,8 @@ The dataset these results are obtained by originals from the movies Wikipedia pa
     <img src="Images/HistAvgScore.PNG" alt="Forest" style="width:100%">
   </div>
   </div>
-  
-  
-  
-  
+  General we see that the reviewers are giving good scores to the movies from the distribution of user score. Only a few reviews has a score lower than 3.
+  The distribution of the average user score follows a normal distribution where most movies have an user score about 3.6 to 3.7. In the table below the five best and worst movies based on average user score can be found.
   
 <h3 style="text-align:left">Top 5 best movies based on average user score</h3>
 <table rules="groups">
@@ -221,11 +225,8 @@ The dataset these results are obtained by originals from the movies Wikipedia pa
 <p align="center">
   <img src="Images/ProductionAvgScore.PNG" style="width:75%">
   <!--<h2>Plots</h2>-->
-  <p>Some text.</p>
+It is clearly seen that Pixar has the best average user score, but overall the user score for the production studios is almost the same. All of them has good movies and bad movies. <!--but what are the best movies and the worst movies? This we will find below. MÅSKE TILFØJE ET LINK TIL SENTIMENT-->
 
-hello
-
-text
     
     
     
