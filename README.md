@@ -59,9 +59,11 @@
 
 <h1 id="Motivation">Motivation</h1>
 
-Relationship between disneys movies. 
+This website will take a closer look of animated movies from a broad selection of productions studios. So if you like animated movies and love watching movies ranging from the good old disney movie "Beauty and the Beast" to the new and modern pixar movie "Onward" this is the webstie for you. Animated movies are often filled with hidden messages and they all have a deeper meaning, that is one of the thing that make animated movies amazing to watch.  
+<br>
+Movie reviews from people are often very honest and direct when they are reviewing a movie. So this is a good foundation for an interesting sentiment analysis and hopefully be very clear which movies are good and which are not. The movie reviewes are obtain from Rotten Tomatos. Furthermore it will be interesting to see if there is a connection between the movies either through the division of communities or through the production studio, year of release or budget.
 
-<p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">View Data</a>
+The dataset these results are obtained by originals from the movies Wikipedia page. <p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">View Data</a> The Jupyter Notebook with the codes can be viewed???
 
 
 <h1 id="contenttitle">Contents</h1>
