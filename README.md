@@ -276,7 +276,7 @@ Below is the wordclouds for each community visualised. From the wordcloulds can 
 <body>
 
 <div class="w3-container">
-  <h2>Wordclouds for communities based on Wikipedia pages</h2>
+  <h3>Wordclouds for communities based on Wikipedia pages</h3>
 </div>
 
 
@@ -359,7 +359,7 @@ Below wordclouds, where the text data is user reviews for eah community, are vis
 <body>
 
 <div class="w3-container">
-  <h2>Wordclouds for communities based on user reviews</h2>
+  <h3>Wordclouds for communities based on user reviews</h3>
 </div>
 
 
@@ -441,7 +441,7 @@ In these wordcloud it is see words such as <em>movie, love, great, good</em> and
   The distribution of sentiment seems to be normal distributed around 6 which is neutral. The range of sentiment is where, 1 is sad and 9 is happy. Additionally,
   the sentiment of movies also seems to follow a normal distribution around 6. The average sentiment of the movies indicates that all the good and bad reviews balance each other out. However we are still interested in finding the movies with the highest and the lowest sentiment.
   
-  <h2>Top 5 movies based on average sentiment</h2>
+  <h3>Top 5 movies based on average sentiment</h3>
 <table rules="groups">
   <thead>
     <tr>
@@ -485,7 +485,7 @@ In these wordcloud it is see words such as <em>movie, love, great, good</em> and
   </tbody>
 </table>
 
- <h2>Worst 5 movies based on average sentiment</h2>
+ <h3>Worst 5 movies based on average sentiment</h3>
 <table rules="groups">
   <thead>
     <tr>
@@ -535,7 +535,7 @@ The best movie is Abominable with a sentiment of 6.29 and the worst is Victory T
   <img src="Images/CorrSenScore.PNG" height="300"> </p>
   
  There is a clear trend in the sentiment vs. average user score, however which words are more used in the reviews with low sentiment and high sentiment? This is shown below using wordclouds.
-   <h2>Words used in the best and worst reviews</h2>
+   <h3>Words used in the best and worst reviews</h3>
 
 <div class="row">
   <div class="column">
@@ -555,7 +555,7 @@ The wordcloud of 250 best reviews are using words such as <em>love, fabolous, hi
 Below can the three best and worst reviews be seen based on there sentiment.
   
 <div class="w3-container">
-  <h2>Top 3 reviews</h2>
+  <h3>Top 3 reviews</h3>
   
 </div>
 
