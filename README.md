@@ -311,10 +311,10 @@ haha
 
 <div class="row">
   <div class="column">
-    <img src="Images/Top250.PNG" alt="Snow" style="width:50%">
+    <img src="Images/Top250.PNG" alt="Snow" style="width:100%">
   </div>
   <div class="column">
-    <img src="Images/Bottom250.PNG" alt="Forest" style="width:50%">
+    <img src="Images/Bottom250.PNG" alt="Forest" style="width:100%">
   </div>
  
 <div class="w3-container">
