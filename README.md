@@ -134,6 +134,11 @@ Relationship between disneys movies.
   <div class="column">
     <img src="Images/HistAvgScore.PNG" alt="Forest" style="width:100%">
   </div>
+  
+  
+  
+  
+  
 <h3 style="text-align:left">Top 5 best movies based on average user score</h3>
 <table rules="groups">
   <thead>
@@ -211,7 +216,7 @@ Relationship between disneys movies.
 </table>
 
 <p align="center">
-  <img src="Images/ProductionsAvgScore.PNG" style="width:80%">
+  <img src="Images/ProductionAvgScore.PNG" style="width:80%">
   <!--<h2>Plots</h2>-->
   <p>Some text.</p>
 </div>
