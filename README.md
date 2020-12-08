@@ -128,10 +128,11 @@ The Jupyter Notebook with the codes can be viewed???
     </tr>
   </tbody>
 </table>
+   <br>
 The majority of the movies in our dataset is Disney productions, next is DreamWorks and then Pixar. Next the different attribute is plotted agianst the realse year.
  <p align="center">
   <img src="Images/YearStat.PNG" style="width:100%">
-
+</p>
 There is an increase in bugdet and gross for movies. However the profit in percent is decreasing this could do to the increase in bugdet and gross. Furthermore, the movies from 1940's has been reissue many times in the cinemas because at that time people did not have VHS so they could not buy the movies. This is propably why the profit in percent is high for movies made in 1940's. Next a closer look at the distributions for user score from Rotton Tomatos is taken.
 
 <h2>User score</h2>
@@ -224,6 +225,7 @@ There is an increase in bugdet and gross for movies. However the profit in perce
 
 <p align="center">
   <img src="Images/ProductionAvgScore.PNG" style="width:75%">
+  </p>
   <!--<h2>Plots</h2>-->
 It is clearly seen that Pixar has the best average user score, but overall the user score for the production studios is almost the same. All of them has good movies and bad movies. <!--but what are the best movies and the worst movies? This we will find below. MÅSKE TILFØJE ET LINK TIL SENTIMENT-->
 
@@ -234,16 +236,33 @@ It is clearly seen that Pixar has the best average user score, but overall the u
 <section class="color" id="network">
     <div class="container">
         <h1>Network analysis </h1>
+      Below is the graph plotted.
       <img src="Images/GraphNodeProduction.PNG" height="600">
-      some text <br>
+      <br>
+      The size of the nodes is decided by the nodes degree. There is a Disney, Pixar, DreamWorks and Sullivan cluster in the network. It is clear that Disney, Pixar and DreamWorks movies are the ones with the largest degree such as The Lion King, Frozen, Toy Story 3, Toy Story and Sherk. Below is the degree distribution plotted. 
       <p align="center">
       <img src="Images/DegreeDist.PNG" height="300">
+        </p>
+      Both in and out degree seems to follow a power law since many nodes have a low degree and a few nodes has a high degree. Accordingly, the network is scale-free.
+      <br>
+      <h2>Communities</h2>
+      The network is diveded into communties by used of the Louvain algorithm. The pie charts below show the division between movies from the different production studios in each community.
       <img src="Images/Cirkel.PNG" height="600"> 
       <br>
-      some taxt
+In each community with exception of community 7 there is a majority of movies from one production studio. In community 1 is it Pixar, community 2 is it DreamWorks, community 3 and 6 is it Disney, community 4 only consists of Sullivan movies, community 5 almost only consists of Disney movies, community 8 is it Blue Sky and community 9 is it Warner Bros. Community 7 is a mix Warner Bros, Disney, Sony and DreamWorks. With further invensigation the following conclusion can be made by each community.
+      <ul>
+  <li> Community 1: 
+with additional text</li>
+</ul>
+      
+      
+      
+      
+      <br> A new graph is shown below where the nodes are colored by communities and its size is depend on production studio. The smallest node size is Disney and then it is Pixar, Warner Bros., Illumination, DreamWorks, Blue Sky, Sony Animation so the biggest nodesize is Sullivan.
       Communities graph<br>
       <img src="Images/GraphCom.PNG" height="600"> 
       <br>
+
 
 <style>
 .mySlides {display:none}
