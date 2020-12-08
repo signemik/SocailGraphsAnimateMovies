@@ -323,15 +323,15 @@ haha
 
 <div class="w3-content" style="max-width:800px">
   <p align="center">
-  <img class="mySlides1" src="Images/Top1.PNG" style="width:50%">
-  <img class="mySlides1" src="Images/Top2.PNG" style="width:50%">
-  <img class="mySlides1" src="Images/Top3.PNG" style="width:50%">
+  <img class="mySlides1" src="Images/Top1.PNG" style="width:70%">
+  <img class="mySlides1" src="Images/Top2.PNG" style="width:70%">
+  <img class="mySlides1" src="Images/Top3.PNG" style="width:70%">
   </p>
 </div>
 <div class="w3-center">
   <div class="w3-section">
-    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
-    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs1(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs1(1)">Next ❯</button>
   </div>
  <button class="w3-button demo" onclick="currentDiv1(1)">1</button> 
   <button class="w3-button demo" onclick="currentDiv1(2)">2</button> 
@@ -342,7 +342,7 @@ haha
  var slideIndex = 1;
 showDivs1(slideIndex);
 
-function plusDivs(n) {
+function plusDivs1(n) {
   showDivs1(slideIndex += n);
 }
 
@@ -376,15 +376,15 @@ function showDivs1(n) {
 
 <div class="w3-content" style="max-width:800px">
   <p align="center">
-  <img class="mySlides2" src="Images/Bottom1.PNG" style="width:50%">
-  <img class="mySlides2" src="Images/Bottom2.PNG" style="width:50%">
-  <img class="mySlides2" src="Images/Bottom3.PNG" style="width:50%">
+  <img class="mySlides2" src="Images/Bottom1.PNG" style="width:70%">
+  <img class="mySlides2" src="Images/Bottom2.PNG" style="width:70%">
+  <img class="mySlides2" src="Images/Bottom3.PNG" style="width:70%">
   </p>
 </div>
 <div class="w3-center">
   <div class="w3-section">
-    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
-    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs2(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs2(1)">Next ❯</button>
   </div>
  <button class="w3-button demo" onclick="currentDiv2(1)">1</button> 
   <button class="w3-button demo" onclick="currentDiv2(2)">2</button> 
@@ -395,11 +395,11 @@ function showDivs1(n) {
  var slideIndex = 1;
 showDivs2(slideIndex);
 
-function plusDivs(n) {
+function plusDivs2(n) {
   showDivs2(slideIndex += n);
 }
 
-function currentDiv1(n) {
+function currentDiv2(n) {
   showDivs2(slideIndex = n);
 }
 
