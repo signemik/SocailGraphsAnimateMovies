@@ -227,6 +227,10 @@ text
       <img src="Images/Cirkel.PNG" height="600"> 
       <br>
       some taxt
+      Communities graph<br>
+      <img src="Images/GraphCom.PNG" height="600"> 
+      <br>
+
             <style>
 .mySlides {display:none}
 </style>
