@@ -126,13 +126,13 @@ Relationship between disneys movies.
 
  <p align="center">
   <img src="Images/YearStat.PNG" style="width:100%">
-
+<h2>User score</h2>
    <div class="row">
   <div class="column">
-    <img src="Images/sentiment-analysis.jpg" alt="Snow" style="width:50%">
+    <img src="Images/HistScore.png" alt="Snow" style="width:50%">
   </div>
   <div class="column">
-    <img src="Images/sentiment-analysis.jpg" alt="Forest" style="width:50%">
+    <img src="Images/HistAvgScore.PNG" alt="Forest" style="width:50%">
   </div>
    
  <h2>Top 5 movies based on average user scores</h2>
