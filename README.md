@@ -251,6 +251,7 @@ It is clearly seen that Pixar has the best average user score, but overall the u
       <br>
 In each community with exception of community 7 there is a majority of movies from one production studio. In community 1 is it Pixar, community 2 is it DreamWorks, community 3 and 6 is it Disney, community 4 only consists of Sullivan movies, community 5 almost only consists of Disney movies, community 8 is it Blue Sky and community 9 is it Warner Bros. Community 7 is a mix of Warner Bros, Disney, Sony and DreamWorks. With further investigation the following conclusion can be made by each community.
       <br>
+      <br>
       <ul>
   <li> Community 1: Some of the movies in this community are Despicable Me, Turbo, Toy Story, Finding Nemo.</li>
    <li> Community 2: Some of the movies in this community Sherk, How to train your Dragon, Kung Fu Panda, Madagascar, Goosebumps.</li>
@@ -267,7 +268,7 @@ A new graph is shown below where the nodes are colored by communities and its no
       
  <img src="Images/GraphCom.PNG" height="600"> 
       
-
+<br>
 Below is the wordclouds for each community visualised. From the wordcloulds can it be seen which words are most important for each community based on the movies text from Wikipedia.
 <style>
 .mySlides {display:none}
@@ -337,7 +338,7 @@ function showDivs(n) {
 }
 </script>
 <br>
-At first sight the nine wordclouds look like each other. They all for example have the words <em>film, release, first, animate </em> and <em>new</em>. After furthere interestion, it is actually possible to seperate them from each other. <br> 
+At first sight the nine wordclouds look like each other. They all for example have the words <em>film, release, first, animate </em> and <em>new</em>. After furthere interestion, it is actually possible to seperate them from each other. <br> <br>
 <ul>
   <li> Community 1: It has words as <em>disney, pixar, toy</em> and <em>story</em>, so it is actually possible from the wordcloud to see that this community has many pixar movies among Toy Story movies. </li>
    <li> Community 2: It is seen words such as <em>shrek, dreamworks, madagascar</em> and <em>panda</em>. </li>
@@ -528,14 +529,13 @@ In these wordcloud it is see words such as <em>movie, love, great, good</em> and
   </tbody>
 </table>
 <br>
-The best movie are 'Abominable' with a sentiment of 6.29 and the worst is 'Victory Through Air Power' with a sentiment of 5.59.  There is a small tendency when the sentiment are high the average user score are high as well. This is visualised below to see if the trend are visible.
+The best movie is Abominable with a sentiment of 6.29 and the worst is Victory Through Air Power with a sentiment of 5.59.  There is a small tendency when the sentiment are high the average user score are high as well. This is visualised below to see if the trend are visible.
 
  <p align="center">
   <img src="Images/CorrSenScore.PNG" height="300"> </p>
   
  There is a clear trend in the sentiment vs. average user score, however which words are more used in the reviews with low sentiment and high sentiment? This is shown below using wordclouds.
    <h2>Words used in the best and worst reviews</h2>
-<p>How to create side-by-side images with the CSS float property:</p>
 
 <div class="row">
   <div class="column">
