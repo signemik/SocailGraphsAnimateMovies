@@ -133,7 +133,7 @@ The majority of the movies in our dataset is Disney productions, next is DreamWo
  <p align="center">
   <img src="Images/YearStat.PNG" style="width:100%">
 </p>
-There is an increase in bugdet and gross for movies. However the profit in percent is decreasing this could do to the increase in bugdet and gross. Furthermore, the movies from 1940's has been reissue many times in the cinemas because at that time people did not have VHS or DVD so they could not buy the movies. This is propably why the profit in percent is high for movies made in 1940's. Next a closer look at the distributions for user score of the reviews from Rotten Tomatos. 
+There is an increase in bugdet and gross for movies. However the profit in percent is decreasing this could do to the increase in bugdet and gross. Furthermore, the movies from 1940's has been reissue many times in the cinemas because at that time people did not have VHS or DVD so they could not buy the movies. This is propably why the profit in percent is high for movies made in 1940's. Next a closer look at the distributions for user score, where the ratining is between 0-5, of the reviews from Rotten Tomatos. 
 
 <h2>User score</h2>
    <div class="row">
@@ -236,7 +236,7 @@ It is clearly seen that Pixar has the best average user score, but overall the u
 <section class="color" id="network">
     <div class="container">
         <h1>Network analysis </h1>
-      Below is the graph visualised.
+      Below is the graph visualised, where an edge symbolize that there is a Wiki-link between the two movies Wikipedia pages.
       <img src="Images/GraphNodeProduction.PNG" height="600">
       <br>
       The size of the nodes are based on node degree. There is a clear Disney, Pixar, DreamWorks and Sullivan cluster in the network. It is clear that Disney, Pixar and DreamWorks movies are the ones with the largest degree such as movies The Lion King, Frozen, Toy Story 3, Toy Story and Shrek. Below is the degree distribution visualised. 
@@ -250,13 +250,14 @@ It is clearly seen that Pixar has the best average user score, but overall the u
       <img src="Images/Cirkel.PNG" height="600"> 
       <br>
 In each community with exception of community 7 there is a majority of movies from one production studio. In community 1 is it Pixar, community 2 is it DreamWorks, community 3 and 6 is it Disney, community 4 only consists of Sullivan movies, community 5 almost only consists of Disney movies, community 8 is it Blue Sky and community 9 is it Warner Bros. Community 7 is a mix of Warner Bros, Disney, Sony and DreamWorks. With further investigation the following conclusion can be made by each community.
+      <br>
       <ul>
-  <li> Community 1: Some of the movies in this community are Despicable Me, Turbo, Toy Story, Finding Nemo</li>
-   <li> Community 2: Some of the movies in this community Sherk, How to train your Dragon, Kung Fu Panda, Madagascar, Goosebumps</li>
+  <li> Community 1: Some of the movies in this community are Despicable Me, Turbo, Toy Story, Finding Nemo.</li>
+   <li> Community 2: Some of the movies in this community Sherk, How to train your Dragon, Kung Fu Panda, Madagascar, Goosebumps.</li>
     <li> Community 3:  In this community there are a lot of iconic and popular disney movies such as The Lion King, Beauty and the Beast (1991) and Aladdin (1992), which are all realeased around at the same time. </li>
         <li> Community 4: This community only consists of movies from Sullivan Bluth Studios. </li>
         <li> Community 5: This community mostly constits of the older Disney movies fx Dumbo, Bambi and Cinderella (1950). There are a few outliers such as Spider-Man Into the Spider-Verse and Pooh's Heffalump Movie which are Sony and Pixar productions. </li>
-        <li> Community 6: There is a mix of different productions studios, where the majority is Disney. Some of the movies in this community are Frozen, Wreck-It Ralph and The Grinch (film). </li>
+        <li> Community 6: There is a mix of different productions studios, where the majority is Disney. Some of the movies in this community are Frozen, Wreck-It Ralph and The Grinch. </li>
         <li> Community 7: Again there are a mix of production studios almost equally divided in this community. Some of the movies in this community are The Lego Movie, The Boss Baby, Hotel Transylvania and Gnomeo & Juliet. </li>
         <li> Community 8: In this community the majority are Blue Sky production movies. Some of the movies in this community are Ice Age, Trolls and The Smurfs. </li>
         <li> Community 9: This community is all about Tinker Bell and her five movies. These movies almost only link to each other and that is why they have their own community. </li>
@@ -270,7 +271,7 @@ In each community with exception of community 7 there is a majority of movies fr
       <img src="Images/GraphCom.PNG" height="600"> 
       
 
-
+Below is the wordclouds for each community visualised. From the wordcloulds can it be seen which words are most important for each community based on the movies text from Wikipedia.
 <style>
 .mySlides {display:none}
 </style>
@@ -339,6 +340,19 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-blue";
 }
 </script>
+
+At first sight the nine wordclouds look like each other. They all for example have the words <em>film, release, first, animate <\em> and <em>new<\em>. After furthere interestion, it is actually possible to seperate them from each other. <b> 
+<ul>
+  <li> Community 1: It has words as <em>disney, pixar, toy</em> and <em>story</em>, so it is actually possible from the wordcloud to see that this community has many pixar movies among Toy Story movies. </li>
+   <li> Community 2: It is seen words such as <em>shrek, dreamworks, madagascar</em> and <em>panda</em>. </li>
+     <li> Community 3: In community 3 words such as <em>disney, lion, king, song</em> and <em>aladdin</em> appears. <\li>
+       <li> Community 4: In community 4 words such as <em>thumbelina, pebble</em> and <em>bluth</em> appears which again are movies in the community and the production studio.</li> 
+         <li>Community 5: Here words such as <em>disney, bambi, million</em> and <em>wal</em>'. It is not that easy to see which movies that are in community 5 besides that they are Disney movies. </li>
+       <li>Community 6: In community 6 words such as <em>disney, frozen, million</em> and <em>movie</em>. Again it is not that easy to tell which movies besides from Frozen that are in community 6. </li>
+       <li> Community 7: Some words in community 7 are <em>lego, batman</em> and <em>transylvania</em> appears, which are very definite for community 7. </li>
+        <li> Community 8: In community 8 the words <em>smurf, gargamel, horton</em> and <em>scoob</em> appears. These words are also very definite for community 8. </li>
+        <li> Community 9: In the last community 9 words such as <em>tinker, bell, disney, fairy</em> and <em>pirate</em>. As in the two last communities these words are also very definitive for community 9 since it only consists of Tinkerbell movies. 
+
 
  <style>
 .mySlides3 {display:none}
