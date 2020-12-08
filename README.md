@@ -232,7 +232,7 @@ It is clearly seen that Pixar has the best average user score, but overall the u
     
     
     
-    
+    <br>
 <section class="color" id="network">
     <div class="container">
         <h1>Network analysis </h1>
@@ -340,12 +340,12 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-blue";
 }
 </script>
-
-At first sight the nine wordclouds look like each other. They all for example have the words <em>film, release, first, animate <\em> and <em>new<\em>. After furthere interestion, it is actually possible to seperate them from each other. <b> 
+<br>
+At first sight the nine wordclouds look like each other. They all for example have the words <em>film, release, first, animate </em> and <em>new</em>. After furthere interestion, it is actually possible to seperate them from each other. <br> 
 <ul>
   <li> Community 1: It has words as <em>disney, pixar, toy</em> and <em>story</em>, so it is actually possible from the wordcloud to see that this community has many pixar movies among Toy Story movies. </li>
    <li> Community 2: It is seen words such as <em>shrek, dreamworks, madagascar</em> and <em>panda</em>. </li>
-     <li> Community 3: In community 3 words such as <em>disney, lion, king, song</em> and <em>aladdin</em> appears. <\li>
+     <li> Community 3: In community 3 words such as <em>disney, lion, king, song</em> and <em>aladdin</em> appears. </li>
        <li> Community 4: In community 4 words such as <em>thumbelina, pebble</em> and <em>bluth</em> appears which again are movies in the community and the production studio.</li> 
          <li>Community 5: Here words such as <em>disney, bambi, million</em> and <em>wal</em>'. It is not that easy to see which movies that are in community 5 besides that they are Disney movies. </li>
        <li>Community 6: In community 6 words such as <em>disney, frozen, million</em> and <em>movie</em>. Again it is not that easy to tell which movies besides from Frozen that are in community 6. </li>
@@ -353,6 +353,8 @@ At first sight the nine wordclouds look like each other. They all for example ha
         <li> Community 8: In community 8 the words <em>smurf, gargamel, horton</em> and <em>scoob</em> appears. These words are also very definite for community 8. </li>
         <li> Community 9: In the last community 9 words such as <em>tinker, bell, disney, fairy</em> and <em>pirate</em>. As in the two last communities these words are also very definitive for community 9 since it only consists of Tinkerbell movies. 
 
+<br> <br>
+Below wordclouds, where the text data is user reviews for eah community, are visualised.
 
  <style>
 .mySlides3 {display:none}
