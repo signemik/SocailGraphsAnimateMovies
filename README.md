@@ -64,7 +64,7 @@ This website will take a closer look of animated movies from a broad selection o
 <br>
 Movie reviews from people are often very honest and direct when they are reviewing a movie. So this is a good foundation for an interesting sentiment analysis and hopefully be very clear which movies are good and which are not. The movie reviews are obtained from Rotten Tomatos. Furthermore it will be interesting to see if there is a connection between the movies either through the division of communities,through the production studio, year of release or budget.
 
-The dataset these results are obtained by originates from each movies Wikipedia page <p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">view Data</a></p> .The Jupyter notebook with details is .<p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">view notebook</a></p>
+The dataset these results are obtained by originates from each movies Wikipedia page<p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">view Data</a></p>The Jupyter notebook with details is<p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">view notebook</a></p>
   
 
 
