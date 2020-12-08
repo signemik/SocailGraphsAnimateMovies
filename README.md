@@ -217,7 +217,7 @@ Relationship between disneys movies.
 </table>
 
 <p align="center">
-  <img src="Images/ProductionAvgScore.PNG" height=300>
+  <img src="Images/ProductionAvgScore.PNG" style="width:50%">
   <!--<h2>Plots</h2>-->
   <p>Some text.</p>
 </div>
