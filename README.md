@@ -129,13 +129,13 @@ Relationship between disneys movies.
 <h2>User score</h2>
    <div class="row">
   <div class="column">
-    <img src="Images/HistScore.png" alt="Snow" style="width:50%">
+    <img src="Images/HistScore.png" alt="Snow" style="width:100%">
   </div>
   <div class="column">
-    <img src="Images/HistAvgScore.PNG" alt="Forest" style="width:50%">
-  </div>
+    <img src="Images/HistAvgScore.PNG" alt="Forest" style="width:100%">
+  </div><\p>
    
- <h2>Top 5 movies based on average user scores</h2>
+ <h3>Top 5 movies based on average user scores</h3>
 <table rules="groups">
   <thead>
     <tr>
@@ -173,7 +173,7 @@ Relationship between disneys movies.
   </tbody>
 </table>
 
-<h2>Worst 5 movies based on average user scores</h2>
+<h3>Worst 5 movies based on average user scores</h3>
 <table rules="groups">
   <thead>
     <tr>
