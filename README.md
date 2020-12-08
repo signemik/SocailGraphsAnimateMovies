@@ -79,16 +79,6 @@ Relationship between disneys movies.
 <section class="color" id="statistics">
  <div class="container">
        <h1>Statistics</h1>
-   <h2>Images Side by Side</h2>
-<p>How to create side-by-side images with the CSS float property:</p>
-
-<div class="row">
-  <div class="column">
-    <img src="Images/sentiment-analysis.jpg" alt="Snow" style="width:50%">
-  </div>
-  <div class="column">
-    <img src="Images/sentiment-analysis.jpg" alt="Forest" style="width:50%">
-  </div>
    
    Below can the distribution of number of movies in the different production studios be seen.
    <table rules="groups">
@@ -313,7 +303,20 @@ haha
 <section class="color" id="sentiments">
  <div class="container">
        <h1>Sentiemnt analysis</h1>
- wuhuu    
+   
+ wuhuu 
+ 
+   <h2>Words used in the best and worst reviews</h2>
+<p>How to create side-by-side images with the CSS float property:</p>
+
+<div class="row">
+  <div class="column">
+    <img src="Images/Top250.PNG" alt="Snow" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="Images/Bottom250.PNG" alt="Forest" style="width:50%">
+  </div>
+ 
 <div class="w3-container">
   <h2>Top 3 reviews</h2>
   <p>WordCloulds.</p>
