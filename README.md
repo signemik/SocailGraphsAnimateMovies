@@ -62,9 +62,10 @@
 This website will take a closer look of animated movies from a broad selection of productions studios. So if you like animated movies and love watching movies ranging from the good old disney movie "Beauty and the Beast" to the new and modern pixar movie "Onward" this is the webstie for you. Animated movies are often filled with hidden messages and they all have a deeper meaning, that is one of the thing that make animated movies amazing to watch.  
 <br>
 <br>
-Movie reviews from people are often very honest and direct when they are reviewing a movie. So this is a good foundation for an interesting sentiment analysis and hopefully be very clear which movies are good and which are not. The movie reviews are obtained from Rotten Tomatos. Furthermore it will be interesting to see if there is a connection between the movies either through the division of communities,through the production studio, year of release or budget.
+Movie reviews from people are often very honest and direct when they are reviewing a movie. So this is a good foundation for an interesting sentiment analysis and hopefully be very clear which movies are good and which are not. Furthermore it will be interesting to see if there is a connection between the movies either through the division of communities,through the production studio, year of release or budget.
 
-The dataset these results are obtained by originates from each movies Wikipedia page<p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">view Data</a></p>The Jupyter notebook with details is<p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">view notebook</a></p>
+<h2>Data</h2>
+The data set is a excel file that has 222 rows and 7 columns. The attributes in the file are moviename, production studio, released yer, budget in million dollars, gross in million dollars, profit in percent and at last the Rotten Tomato moviename. The last attribute is used to get movie reviews from the website Rotten Tomato. The data in the other attributes originates from each movies Wikipedia page<p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">view Data</a></p>The Jupyter notebook with details is<p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">view notebook</a></p>
   
 
 
