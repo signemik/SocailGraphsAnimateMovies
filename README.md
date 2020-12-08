@@ -220,7 +220,7 @@ Relationship between disneys movies.
   <img src="Images/ProductionAvgScore.PNG" style="width:75%">
   <!--<h2>Plots</h2>-->
   <p>Some text.</p>
-</div>
+
 hello
 
 text
@@ -386,9 +386,20 @@ haha
 <section class="color" id="sentiments">
  <div class="container">
        <h1>Sentiemnt analysis</h1>
+   <h2>User score</h2>
+   
    
  wuhuu
- 
+
+   <div class="row">
+  <div class="column">
+    <img src="Images/HistSent.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Images/HistAvgSent.PNG" alt="Forest" style="width:100%">
+  </div>
+  </div>
+   
   <h2>Top 5 movies based on average sentiment scores</h2>
 <table rules="groups">
   <thead>
