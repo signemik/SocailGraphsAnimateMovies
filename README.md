@@ -125,7 +125,7 @@ Relationship between disneys movies.
 </table>
 
  <p align="center">
-  <img src="Images/YearStat.PNG" height="100">
+  <img src="Images/YearStat.PNG" style="width:100%">
 
    <div class="row">
   <div class="column">
