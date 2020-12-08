@@ -304,7 +304,97 @@ haha
  <div class="container">
        <h1>Sentiemnt analysis</h1>
    
- wuhuu 
+ wuhuu
+ 
+  <h2>Top 5 movies based on average sentiment scores</h2>
+<table rules="groups">
+  <thead>
+    <tr>
+      <th style="text-align: center">Movie</th>
+      <th style="text-align: center">Average Sentiment Score</th>
+      <th style="text-align: center">Average User Score</th>
+      <th style="text-align: center">Production studio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Abominable</td>
+      <td style="text-align: left">6.29</td>
+      <td style="text-align: left">4.49</td>
+      <td style="text-align: left">Dreamworks</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Secret Life of Pets 2</td>
+      <td style="text-align: left">6.27</td>
+      <td style="text-align: left">4.26</td>
+      <td style="text-align: left">Illumination</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Shrek 2</td>
+      <td style="text-align: left">6.25</td>
+      <td style="text-align: left">3.83</td>
+      <td style="text-align: left">Dreamworks</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Spies in Disguise</td>
+      <td style="text-align: left">6.22</td>
+      <td style="text-align: left">4.33</td>
+      <td style="text-align: left">Blue Sky</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Star</td>
+      <td style="text-align: left">6.18</td>
+      <td style="text-align: left">4.17</td>
+      <td style="text-align: left">Sony Pictures Animation productions</td>
+    </tr>
+  </tbody>
+</table>
+
+ <h2>Worst 5 movies based on average sentiment scores</h2>
+<table rules="groups">
+  <thead>
+    <tr>
+      <th style="text-align: center">Movie</th>
+      <th style="text-align: center">Average Sentiment Score</th>
+      <th style="text-align: center">Average User Score</th>
+      <th style="text-align: center">Production studio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Victory Through Air Power</td>
+      <td style="text-align: left">5.59</td>
+      <td style="text-align: left">3.25</td>
+      <td style="text-align: left">Disney</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Emoji Movie</td>
+      <td style="text-align: left">5.67</td>
+      <td style="text-align: left">2.64</td>
+      <td style="text-align: left">Sony Pictures Animation productions</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Shark Tale</td>
+      <td style="text-align: left">5.72</td>
+      <td style="text-align: left">2.95</td>
+      <td style="text-align: left">Dreamworks</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Black Cauldron</td>
+      <td style="text-align: left">5.72</td>
+      <td style="text-align: left">3.11</td>
+      <td style="text-align: left">Disney</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Ice Age: Collision Course</td>
+      <td style="text-align: left">5.72</td>
+      <td style="text-align: left">2.42</td>
+      <td style="text-align: left">Blue Sky</td>
+    </tr>
+  </tbody>
+</table>
+ 
+ 
  
    <h2>Words used in the best and worst reviews</h2>
 <p>How to create side-by-side images with the CSS float property:</p>
