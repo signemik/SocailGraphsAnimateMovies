@@ -64,9 +64,8 @@ This website will take a closer look of animated movies from a broad selection o
 <br>
 Movie reviews from people are often very honest and direct when they are reviewing a movie. So this is a good foundation for an interesting sentiment analysis and hopefully be very clear which movies are good and which are not. The movie reviews are obtained from Rotten Tomatos. Furthermore it will be interesting to see if there is a connection between the movies either through the division of communities,through the production studio, year of release or budget.
 
-The dataset these results are obtained by originates from each movies Wikipedia page. <p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">View Data</a> 
+The dataset these results are obtained by originates from each movies Wikipedia page <p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">view Data</a></p> .The Jupyter notebook with details is .<p style="color:blue;"><a href="https://github.com/signemik/SocialGraphsAnimateMovies/blob/main/Download/Movie_Data.xlsx">view notebook</a></p>
   
-The Jupyter Notebook with the codes can be viewed???
 
 
 <h1 id="contenttitle">Contents</h1>
@@ -428,7 +427,7 @@ In these wordcloud it is see words such as <em>movie, love, great, good</em> and
  <div class="container">
        <h1>Sentiment analysis</h1>
    In the sentiment analysis the emotion of the reviews are analyzed. To begin with the distribution of sentiment for the user reviews is shown. 
-   <h2>User score</h2>
+   <h2>Setiment</h2>
 
    <div class="row">
   <div class="column">
